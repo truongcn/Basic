@@ -21,32 +21,12 @@ async function loadStudents() {
       <td>${s.phone}</td>
       <td>${s.description || ""}</td>
       <td>
-        <button onclick="deleteStudent('${s.id}')">Delete</button>
-        <button onclick="editStudent('${s.id}', '${s.name}', ${s.phone}, '${s.description || ""}')">Edit</button>
+        <button class="btn-edit" onclick="editStudent('${s.id}', '${s.name}', ${s.phone}, '${s.description || ""}')">Edit</button>
+        <button class="btn-delete" onclick="deleteStudent('${s.id}')">Delete</button>
       </td>`;
         tbody.appendChild(row);
     });
 }
-
-// Add student
-document.getElementById("studentForm").addEventListener("submit", async (e) => {
-    e.preventDefault();
-    const name = document.getElementById("name").value;
-    const phone = parseInt(document.getElementById("phone").value);
-    const description = document.getElementById("description").value;
-
-    await fetch(`${apiBase}/Students`, {
-        method: "POST",
-        headers: {
-            "Authorization": `Bearer ${token}`,
-            "Content-Type": "application/json"
-        },
-        body: JSON.stringify({ name, phone, description })
-    });
-
-    e.target.reset();
-    loadStudents();
-});
 
 // Delete student
 async function deleteStudent(id) {
@@ -107,6 +87,53 @@ async function findStudent(id) {
       </td>`;
     tbody.appendChild(row);
 }
+
+// Lấy các phần tử
+const btnShowForm = document.getElementById("btnShowForm");
+const studentFormContainer = document.getElementById("studentFormContainer");
+const btnCancel = document.getElementById("btnCancel");
+
+// Khi bấm Add New Student → hiện form
+btnShowForm.addEventListener("click", () => {
+    studentFormContainer.style.display = "block";
+});
+
+// Khi bấm Cancel → ẩn form
+btnCancel.addEventListener("click", () => {
+    studentFormContainer.style.display = "none";
+});
+
+// Xử lý khi submit form
+document.getElementById("studentForm").addEventListener("submit", async function (e) {
+    e.preventDefault();
+
+    const name = document.getElementById("name").value;
+    const phone = document.getElementById("phone").value;
+    const description = document.getElementById("description").value;
+
+    const res = await fetch(`${apiBase}/Students`, {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json",
+            "Authorization": `Bearer ${token}`
+        },
+        body: JSON.stringify({
+            name: name,
+            phone: parseInt(phone),
+            description: description
+        })
+    });
+
+    if (res.ok) {
+        alert("Student added successfully!");
+        document.getElementById("studentForm").reset();
+        studentFormContainer.style.display = "none"; // ẩn form sau khi thêm
+        loadStudents(); // reload bảng
+    } else {
+        const error = await res.json();
+        alert("Error: " + (error.message || "Failed to add student"));
+    }
+});
 
 
 loadStudents();

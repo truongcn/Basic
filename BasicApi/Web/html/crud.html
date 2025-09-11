@@ -4,28 +4,39 @@
 <head>
     <meta charset="UTF-8">
     <title>Student CRUD</title>
+    <link rel="stylesheet" type="text/css" href="../css/text.css">
 </head>
 
 <body>
     <h1>Student Management</h1>
 
-    <!-- Add Student -->
-    <h2>Add Student</h2>
-    <form id="studentForm">
-        <input type="text" id="name" placeholder="Name" required>
-        <input type="number" id="phone" placeholder="Phone" required>
-        <input type="text" id="description" placeholder="Description">
-        <button type="submit">Add</button>
-    </form>
-
-    <input type="text" id="searchId" placeholder="Enter student ID">
-    <button onclick="findStudent(document.getElementById('searchId').value)">Find</button>
-
+    <!-- Form thêm student (ẩn ban đầu) -->
+    <div id="studentFormContainer" style="display:none; margin-top:20px;">
+        <h2>Add Student</h2>
+        <form id="studentForm">
+            <ul>
+                <input type="text" id="name" placeholder="Name" required>
+            </ul>
+            <ul>
+                <input type="text" id="phone" placeholder="Phone" required>
+            </ul>
+            <ul>
+                <input type="text" id="description" placeholder="Description">
+            </ul>
+            <ul>
+                <button type="submit">Add</button>
+                <button type="button" id="btnCancel">Cancel</button>
+            </ul>
+        </form>
+    </div>
 
     <!-- Student Table -->
     <h2>All Students</h2>
     <table border="1" id="studentTable">
         <thead>
+            <button id="btnShowForm">Add New Student</button>
+            <input type="text" id="btnFind" placeholder="Enter student GuId">
+            <button onclick="findStudent(document.getElementById('searchId').value)" id="btnFind">Find</button>
             <tr>
                 <th>ID</th>
                 <th>Name</th>

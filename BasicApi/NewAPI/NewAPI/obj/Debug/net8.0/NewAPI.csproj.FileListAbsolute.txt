@@ -278,3 +278,4 @@ C:\Users\TRUONGVY\Desktop\Basic\BasicApi\NewAPI\NewAPI\obj\Debug\net8.0\refint\N
 C:\Users\TRUONGVY\Desktop\Basic\BasicApi\NewAPI\NewAPI\obj\Debug\net8.0\NewAPI.pdb
 C:\Users\TRUONGVY\Desktop\Basic\BasicApi\NewAPI\NewAPI\obj\Debug\net8.0\NewAPI.genruntimeconfig.cache
 C:\Users\TRUONGVY\Desktop\Basic\BasicApi\NewAPI\NewAPI\obj\Debug\net8.0\ref\NewAPI.dll
+C:\Users\TRUONGVY\Desktop\Basic\BasicApi\NewAPI\NewAPI\obj\Debug\net8.0\NewAPI.sourcelink.json

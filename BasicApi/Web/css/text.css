@@ -1,0 +1,13 @@
+.btn-edit {
+    background-color: yellow;
+}
+
+.btn-delete {
+    background-color: red;
+}
+
+#btnShowForm {
+    margin-right: 50px;
+    margin-left: 212px;
+    margin-bottom: 10px;
+}
