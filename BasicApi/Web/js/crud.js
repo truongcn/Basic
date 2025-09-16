@@ -59,13 +59,18 @@ async function editStudent(id, currentName, currentPhone, currentDesc) {
 
 // tìm 1 học sinh theo id
 async function findStudent(id) {
+    if (!id || id.trim() === "") {
+        alert("Please enter a student ID to search!");
+        return;
+    }
+
     const res = await fetch(`${apiBase}/Students/${id}`, {
         method: "GET",
         headers: { "Authorization": `Bearer ${token}` }
     });
 
     if (!res.ok) {
-        alert("Không tìm thấy học sinh!");
+        alert("Student not found!");
         return;
     }
 

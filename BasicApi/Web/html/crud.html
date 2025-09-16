@@ -9,7 +9,7 @@
 
 <body>
     <div class="container">
-        <h1>Student Management</h1>
+        <h1><b>Student Management</b></h1>
 
         <!-- Form thêm student (ẩn ban đầu) -->
         <div id="studentFormContainer" style="display:none; margin-top:20px;">
@@ -32,11 +32,19 @@
         </div>
 
         <!-- Student Table -->
+        <div class="actions-bar">
+            <div class="toolbar">
+                <button id="btnShowForm">Add New Student</button>
+            </div>
+
+            <div>
+                <input type="text" id="searchId" placeholder="Enter student Guid">
+                <button onclick="findStudent(document.getElementById('searchId').value)" id="btnFind">Find</button>
+            </div>
+        </div>
+
         <table border="1" id="studentTable">
             <thead>
-                <button id="btnShowForm">Add New Student</button>
-                <input type="text" id="btnFind" placeholder="Enter student GuId">
-                <button onclick="findStudent(document.getElementById('searchId').value)" id="btnFind">Find</button>
                 <tr>
                     <th>ID</th>
                     <th>Name</th>
@@ -47,9 +55,8 @@
             </thead>
             <tbody></tbody>
         </table>
-    </div>
 
-    <script src="../js/crud.js"></script>
+        <script src="../js/crud.js"></script>
 </body>
 
 </html>
