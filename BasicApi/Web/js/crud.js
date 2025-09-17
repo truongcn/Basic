@@ -16,7 +16,6 @@ async function loadStudents() {
     students.forEach(s => {
         const row = document.createElement("tr");
         row.innerHTML = `
-      <td>${s.id}</td>
       <td>${s.name}</td>
       <td>${s.phone}</td>
       <td>${s.description || ""}</td>
@@ -82,7 +81,6 @@ async function findStudent(id) {
 
     const row = document.createElement("tr");
     row.innerHTML = `
-      <td>${s.id}</td>
       <td>${s.name}</td>
       <td>${s.phone}</td>
       <td>${s.description || ""}</td>
@@ -93,6 +91,7 @@ async function findStudent(id) {
     tbody.appendChild(row);
 }
 
+//-- add from
 // Lấy các phần tử
 const btnShowForm = document.getElementById("btnShowForm");
 const studentFormContainer = document.getElementById("studentFormContainer");
@@ -139,6 +138,6 @@ document.getElementById("studentForm").addEventListener("submit", async function
         alert("Error: " + (error.message || "Failed to add student"));
     }
 });
-
+//-- end add form
 
 loadStudents();

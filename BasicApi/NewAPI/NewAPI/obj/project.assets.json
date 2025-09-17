@@ -4262,23 +4262,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\TRUONGVY\\.nuget\\packages\\": {},
+    "C:\\Users\\truongnv3\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\TRUONGVY\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\NewAPI.csproj",
+      "projectUniqueName": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\NewAPI.csproj",
       "projectName": "NewAPI",
-      "projectPath": "C:\\Users\\TRUONGVY\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\NewAPI.csproj",
-      "packagesPath": "C:\\Users\\TRUONGVY\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TRUONGVY\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\obj\\",
+      "projectPath": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\NewAPI.csproj",
+      "packagesPath": "C:\\Users\\truongnv3\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\TRUONGVY\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\truongnv3\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
