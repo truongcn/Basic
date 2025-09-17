@@ -7,34 +7,71 @@ const form = document.getElementById("studentForm");
 const popupTitle = document.getElementById("popupTitle");
 const hiddenId = document.getElementById("studentId"); // input hidden để lưu id khi edit
 
+//--phân trang
+let students = []; // dữ liệu gốc
+let currentPage = 1;
+const pageSize = 10; // số dòng mỗi trang
+
+function createRow(s) {
+  const row = document.createElement("tr");
+  row.innerHTML = `
+    <td>${s.name}</td>
+    <td>${s.phone}</td>
+    <td>${s.description || ""}</td>
+    <td>
+      <button onclick='openPopup(${JSON.stringify(s)})' class="btn-edit">Edit</button>
+      <button onclick="deleteStudent('${s.id}')" class="btn-delete">Delete</button>
+    </td>
+  `;
+  return row;
+}
+
+function renderTable() {
+  const tbody = document.querySelector("#studentTable tbody");
+  tbody.innerHTML = "";
+
+  const start = (currentPage - 1) * pageSize;
+  const end = start + pageSize;
+  const pageData = students.slice(start, end);
+
+  pageData.forEach(s => {
+    tbody.appendChild(createRow(s)); // ✅ tái sử dụng
+  });
+
+  renderPagination();
+}
+
+function renderPagination() {
+  const totalPages = Math.ceil(students.length / pageSize);
+  const pagination = document.getElementById("pagination");
+  pagination.innerHTML = "";
+
+  for (let i = 1; i <= totalPages; i++) {
+    const btn = document.createElement("button");
+    btn.textContent = i;
+    btn.className = (i === currentPage) ? "active" : "";
+    btn.addEventListener("click", () => {
+      currentPage = i;
+      renderTable();
+    });
+    pagination.appendChild(btn);
+  }
+}
+//--end phân trang
+
 // load danh sách
 async function loadStudents() {
   const res = await fetch(`${apiBase}/Students`, {
     headers: { "Authorization": `Bearer ${token}` }
   });
   if (!res.ok) { alert("Failed to load"); return; }
-
-  const students = await res.json();
-  const tbody = document.querySelector("#studentTable tbody");
-  tbody.innerHTML = "";
-
-  students.forEach(s => {
-    const row = document.createElement("tr");
-    row.innerHTML = `
-      <td>${s.name}</td>
-      <td>${s.phone}</td>
-      <td>${s.description || ""}</td>
-      <td>
-        <button onclick='openPopup(${JSON.stringify(s)})' class="btn-edit">Edit</button>
-        <button onclick="deleteStudent('${s.id}')" class="btn-delete">Delete</button>
-      </td>`;
-    tbody.appendChild(row);
-  });
+  students = await res.json();
+  renderTable();
 }
 
 // mở popup khi bấm nút Add New Student
-document.getElementById("btnShowForm").addEventListener("click", () => {
-  openPopup(); // mở form ở chế độ thêm mới
+document.getElementById("btn-add-student").addEventListener("click", () => {
+  openPopup();
 });
 
 // mở popup cho add hoặc edit
@@ -101,12 +138,26 @@ async function deleteStudent(id) {
 
   if (res.ok) {
     alert("Success!");
-    loadStudents(); // tải lại danh sách
+    loadStudents();
   } else {
     const error = await res.json();
     alert("Xóa thất bại: " + (error.message || "Unknown error"));
   }
 }
 
+function searchStudents(keyword) {
+  const tbody = document.querySelector("#studentTable tbody");
+  tbody.innerHTML = "";
+
+  const filtered = students.filter(s =>
+    s.name.toLowerCase().includes(keyword.toLowerCase()) ||
+    s.phone.toString().includes(keyword) ||
+    (s.description && s.description.toLowerCase().includes(keyword.toLowerCase()))
+  );
+
+  filtered.forEach(s => {
+    tbody.appendChild(createRow(s));
+  });
+}
 
 loadStudents();
