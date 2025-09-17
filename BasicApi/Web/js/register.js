@@ -16,13 +16,25 @@ async function register() {
     });
 
     if (res.ok) {
-        const data = await res.json();
-        alert(data.message); // Should say "Registered successfully..."
-    } else {
-        const error = await res.json();
-        alert("Register failed: " + (error.message || "Unknown error"));
-    }
-}
+    // register success and call login
+    const loginRes = await fetch(`${apiBase}/Auth/login`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ username, password }) // use infomation register
+    });
 
+    if (loginRes.ok) {
+      const data = await loginRes.json();
+      localStorage.setItem("token", data.token); // save token
+      alert("Register and Login success!");
+      window.location.href = "crud.html"; // next to CRUD
+    } else {
+      alert("Register success but can't Login!");
+    }
+  } else {
+    const error = await res.json();
+    alert("Register failed: " + (error.message || "Unknown error"));
+  }
+}
 
 
