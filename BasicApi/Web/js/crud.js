@@ -144,12 +144,25 @@ const CrudModule = (() => {
   function searchStudents(keyword) {
     const tbody = document.querySelector("#studentTable tbody");
     tbody.innerHTML = "";
+
+    // Nếu không nhập gì -> chỉ load lại toàn bộ bằng renderTable
+    if (!keyword || keyword.trim() === "") {
+      renderTable();
+      return;
+    }
     const filtered = students.filter(s =>
       s.name.toLowerCase().includes(keyword.toLowerCase()) ||
       s.phone.toString().includes(keyword) ||
       (s.description && s.description.toLowerCase().includes(keyword.toLowerCase()))
     );
-    filtered.forEach(s => tbody.appendChild(createRow(s)));
+
+    if (filtered.length === 0) {
+      const row = document.createElement("tr");
+      row.innerHTML = `<td colspan="4">No students found</td>`;
+      tbody.appendChild(row);
+    } else {
+      filtered.forEach(s => tbody.appendChild(createRow(s)));
+    }
   }
 
   // Khởi tạo
