@@ -35,7 +35,7 @@ async function loadPage(page) {
         document.getElementById("content").innerHTML = html;
 
         // Nếu load CRUD thì reset script crud.js
-        if (page.includes("crud.html")) {
+        if (page.includes("studentcrud.html")) {
             if (typeof CrudModule === "undefined") {
                 const script = document.createElement("script");
                 script.src = "../js/crud.js";
