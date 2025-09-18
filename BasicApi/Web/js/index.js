@@ -38,7 +38,18 @@ async function loadPage(page) {
         if (page.includes("studentcrud.html")) {
             if (typeof CrudModule === "undefined") {
                 const script = document.createElement("script");
-                script.src = "../js/crud.js";
+                script.src = "../js/studentcrud.js";
+                script.onload = () => CrudModule.initCrud();
+                document.body.appendChild(script);
+            } else {
+                CrudModule.initCrud();
+            }
+        }
+
+        else if (page.includes("usercrud.html")) {
+            if (typeof CrudModule === "undefined") {
+                const script = document.createElement("script");
+                script.src = "../js/usercrud.js";
                 script.onload = () => CrudModule.initCrud();
                 document.body.appendChild(script);
             } else {

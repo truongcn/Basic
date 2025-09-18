@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using NewAPI.testAPI.Application.Interfaces;
+using NewAPI.testAPI.Application.Services;
 using System.Text;
 using testAPI.Application.Interfaces;
 using testAPI.Application.Services;
@@ -23,6 +25,10 @@ builder.Services.AddScoped<IStudentRepository, StudentRepository>();
 
 builder.Services.Configure<EmailSettings>(builder.Configuration.GetSection("EmailSettings"));
 builder.Services.AddTransient<IEmailService, EmailService>();
+
+builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+
 
 //CORS
 builder.Services.AddCors(options =>

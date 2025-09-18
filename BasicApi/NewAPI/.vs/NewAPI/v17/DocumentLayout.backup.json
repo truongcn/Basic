@@ -3,6 +3,82 @@
   "WorkspaceRootPath": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|c:\\users\\truongnv3\\desktop\\basic\\basicapi\\newapi\\newapi\\testapi.aplication\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|solutionrelative:newapi\\testapi.aplication\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|c:\\users\\truongnv3\\desktop\\basic\\basicapi\\newapi\\newapi\\testapi.aplication\\dtos\\adduserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|solutionrelative:newapi\\testapi.aplication\\dtos\\adduserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|c:\\users\\truongnv3\\desktop\\basic\\basicapi\\newapi\\newapi\\testapi.aplication\\dtos\\updatestudentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|solutionrelative:newapi\\testapi.aplication\\dtos\\updatestudentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|c:\\users\\truongnv3\\desktop\\basic\\basicapi\\newapi\\newapi\\testapi.aplication\\dtos\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|solutionrelative:newapi\\testapi.aplication\\dtos\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|c:\\users\\truongnv3\\desktop\\basic\\basicapi\\newapi\\newapi\\testapi.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|solutionrelative:newapi\\testapi.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|c:\\users\\truongnv3\\desktop\\basic\\basicapi\\newapi\\newapi\\testapi.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|solutionrelative:newapi\\testapi.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|c:\\users\\truongnv3\\desktop\\basic\\basicapi\\newapi\\newapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|solutionrelative:newapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|c:\\users\\truongnv3\\desktop\\basic\\basicapi\\newapi\\newapi\\testapi.aplication\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|solutionrelative:newapi\\testapi.aplication\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|c:\\users\\truongnv3\\desktop\\basic\\basicapi\\newapi\\newapi\\migrations\\testdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|solutionrelative:newapi\\migrations\\testdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|c:\\users\\truongnv3\\desktop\\basic\\basicapi\\newapi\\newapi\\testapi.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|solutionrelative:newapi\\testapi.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|c:\\users\\truongnv3\\desktop\\basic\\basicapi\\newapi\\newapi\\testapi.api\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|solutionrelative:newapi\\testapi.api\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|c:\\users\\truongnv3\\desktop\\basic\\basicapi\\newapi\\newapi\\testapi.infrastructure\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|solutionrelative:newapi\\testapi.infrastructure\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|c:\\users\\truongnv3\\desktop\\basic\\basicapi\\newapi\\newapi\\testapi.infrastructure\\interfaces\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|solutionrelative:newapi\\testapi.infrastructure\\interfaces\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|c:\\users\\truongnv3\\desktop\\basic\\basicapi\\newapi\\newapi\\testapi.aplication\\interfaces\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|solutionrelative:newapi\\testapi.aplication\\interfaces\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|c:\\users\\truongnv3\\desktop\\basic\\basicapi\\newapi\\newapi\\testapi.aplication\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|solutionrelative:newapi\\testapi.aplication\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|c:\\users\\truongnv3\\desktop\\basic\\basicapi\\newapi\\newapi\\testapi.aplication\\dtos\\addstudentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|solutionrelative:newapi\\testapi.aplication\\dtos\\addstudentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|c:\\users\\truongnv3\\desktop\\basic\\basicapi\\newapi\\newapi\\testapi.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|solutionrelative:newapi\\testapi.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|c:\\users\\truongnv3\\desktop\\basic\\basicapi\\newapi\\newapi\\testapi.domain\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|solutionrelative:newapi\\testapi.domain\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|c:\\users\\truongnv3\\desktop\\basic\\basicapi\\newapi\\newapi\\testapi.infrastructure\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|solutionrelative:newapi\\testapi.infrastructure\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|c:\\users\\truongnv3\\desktop\\basic\\basicapi\\newapi\\newapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|solutionrelative:newapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
@@ -14,7 +90,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,7 +110,254 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\Program.cs",
+              "RelativeDocumentMoniker": "NewAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\Program.cs",
+              "RelativeToolTip": "NewAPI\\Program.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T09:52:40.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TestDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\Migrations\\TestDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "NewAPI\\Migrations\\TestDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\Migrations\\TestDbContextModelSnapshot.cs",
+              "RelativeToolTip": "NewAPI\\Migrations\\TestDbContextModelSnapshot.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T09:32:35.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Domain\\Entities\\Student.cs",
+              "RelativeDocumentMoniker": "NewAPI\\testAPI.Domain\\Entities\\Student.cs",
+              "ToolTip": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Domain\\Entities\\Student.cs",
+              "RelativeToolTip": "NewAPI\\testAPI.Domain\\Entities\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T09:31:45.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Aplication\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "NewAPI\\testAPI.Aplication\\Interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Aplication\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "NewAPI\\testAPI.Aplication\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T09:29:10.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IStudentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Infrastructure\\Interfaces\\IStudentRepository.cs",
+              "RelativeDocumentMoniker": "NewAPI\\testAPI.Infrastructure\\Interfaces\\IStudentRepository.cs",
+              "ToolTip": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Infrastructure\\Interfaces\\IStudentRepository.cs",
+              "RelativeToolTip": "NewAPI\\testAPI.Infrastructure\\Interfaces\\IStudentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T09:26:30.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Infrastructure\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "NewAPI\\testAPI.Infrastructure\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Infrastructure\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "NewAPI\\testAPI.Infrastructure\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T09:26:24.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "StudentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Infrastructure\\Repositories\\StudentRepository.cs",
+              "RelativeDocumentMoniker": "NewAPI\\testAPI.Infrastructure\\Repositories\\StudentRepository.cs",
+              "ToolTip": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Infrastructure\\Repositories\\StudentRepository.cs",
+              "RelativeToolTip": "NewAPI\\testAPI.Infrastructure\\Repositories\\StudentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T09:26:15.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "NewAPI\\testAPI.Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "NewAPI\\testAPI.Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T09:26:01.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Aplication\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "NewAPI\\testAPI.Aplication\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Aplication\\Services\\UserService.cs",
+              "RelativeToolTip": "NewAPI\\testAPI.Aplication\\Services\\UserService.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAowDkAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T09:25:48.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Aplication\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "NewAPI\\testAPI.Aplication\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Aplication\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "NewAPI\\testAPI.Aplication\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T09:25:25.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UpdateUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Aplication\\DTOs\\UpdateUserDto.cs",
+              "RelativeDocumentMoniker": "NewAPI\\testAPI.Aplication\\DTOs\\UpdateUserDto.cs",
+              "ToolTip": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Aplication\\DTOs\\UpdateUserDto.cs",
+              "RelativeToolTip": "NewAPI\\testAPI.Aplication\\DTOs\\UpdateUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T09:24:59.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Aplication\\DTOs\\AddUserDto.cs",
+              "RelativeDocumentMoniker": "NewAPI\\testAPI.Aplication\\DTOs\\AddUserDto.cs",
+              "ToolTip": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Aplication\\DTOs\\AddUserDto.cs",
+              "RelativeToolTip": "NewAPI\\testAPI.Aplication\\DTOs\\AddUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T09:24:42.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IStudentService.cs",
+              "DocumentMoniker": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Aplication\\Interfaces\\IStudentService.cs",
+              "RelativeDocumentMoniker": "NewAPI\\testAPI.Aplication\\Interfaces\\IStudentService.cs",
+              "ToolTip": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Aplication\\Interfaces\\IStudentService.cs",
+              "RelativeToolTip": "NewAPI\\testAPI.Aplication\\Interfaces\\IStudentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T09:24:11.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UpdateStudentDto.cs",
+              "DocumentMoniker": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Aplication\\DTOs\\UpdateStudentDto.cs",
+              "RelativeDocumentMoniker": "NewAPI\\testAPI.Aplication\\DTOs\\UpdateStudentDto.cs",
+              "ToolTip": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Aplication\\DTOs\\UpdateStudentDto.cs",
+              "RelativeToolTip": "NewAPI\\testAPI.Aplication\\DTOs\\UpdateStudentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T09:24:07.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AddStudentDto.cs",
+              "DocumentMoniker": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Aplication\\DTOs\\AddStudentDto.cs",
+              "RelativeDocumentMoniker": "NewAPI\\testAPI.Aplication\\DTOs\\AddStudentDto.cs",
+              "ToolTip": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Aplication\\DTOs\\AddStudentDto.cs",
+              "RelativeToolTip": "NewAPI\\testAPI.Aplication\\DTOs\\AddStudentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T09:23:48.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.API\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "NewAPI\\testAPI.API\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.API\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "NewAPI\\testAPI.API\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T09:23:23.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.API\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "NewAPI\\testAPI.API\\Controllers\\StudentsController.cs",
+              "ToolTip": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.API\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "NewAPI\\testAPI.API\\Controllers\\StudentsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T09:22:26.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "NewAPI\\testAPI.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "NewAPI\\testAPI.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T09:22:18.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "NewAPI\\testAPI.Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "NewAPI\\testAPI.Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T09:22:07.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\appsettings.json",
               "RelativeDocumentMoniker": "NewAPI\\appsettings.json",
