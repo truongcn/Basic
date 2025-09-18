@@ -11,7 +11,14 @@ async function login() {
     });
 
     if (res.ok) {
-        window.location.href = '../html/crud.html';
+        const data = await res.json();
+
+    // ✅ lưu token trước khi redirect
+    localStorage.setItem("token", data.token);
+
+    // ✅ redirect sang index
+    window.location.href = "../index.html";
+
     } else {
         alert("Login failed!");
     }

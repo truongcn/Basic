@@ -3,18 +3,34 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome Page</title>
-    <link rel="stylesheet" type="text/css" href="../css/index.css">
+    <title>Student CRUD</title>
+    <link rel="stylesheet" type="text/css" href="../css/curd.css">
+    <link rel="stylesheet" type="text/css" href="../css/navibar.css">
+
+
+
 </head>
 
 <body>
-    <h1>Welcome to Student Management</h1>
-    <p>Click the button below to login</p>
-    <button onclick="window.location.href='../html/login.html'" id="btlogin">Go to Login</button>
 
-    <p>Click the button if you don't have account</p>
-    <button onclick="window.location.href='../html/register.html'" id="btlogin">Go to Register</button>
+    <div class="navbar">
+        <ul>
+            <li><a href="#" onclick="loadPage('html/crud.html')">Student</a></li>
+            <li><a href="#" onclick="loadPage('about.html')">User</a></li>
+        </ul>
+
+        <ul class="logout">
+            <a><button id="logoutBtn">Log out</button></a>
+        </ul>
+
+    </div>
+    <div id="content">
+        <h2>Welcome!</h2>
+        <p>Bấm menu để xem nội dung.</p>
+    </div>
+
+    <script src="../js/index.js"></script>
+
 </body>
 
 </html>
