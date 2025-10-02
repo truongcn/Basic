@@ -142,8 +142,7 @@
               "RelativeToolTip": "NewAPI\\testAPI.Domain\\Entities\\EmailVerificationToken.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T03:44:35.322Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-02T03:44:35.322Z"
             },
             {
               "$type": "Document",
@@ -155,8 +154,7 @@
               "RelativeToolTip": "NewAPI\\testAPI.Aplication\\Services\\UserService.cs",
               "ViewState": "AgIAACgAAAAAAAAAAAAwwEoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T03:43:26.104Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-02T03:43:26.104Z"
             },
             {
               "$type": "Document",
@@ -168,8 +166,7 @@
               "RelativeToolTip": "NewAPI\\testAPI.Aplication\\Services\\EmailService.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T02:53:41.804Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-02T02:53:41.804Z"
             },
             {
               "$type": "Document",
@@ -181,8 +178,7 @@
               "RelativeToolTip": "NewAPI\\testAPI.Aplication\\DTOs\\AuthDtos.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAA0wAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T02:49:01.998Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-02T02:49:01.998Z"
             },
             {
               "$type": "Document",
@@ -194,8 +190,7 @@
               "RelativeToolTip": "NewAPI\\Migrations\\20250911170632_employ.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T02:28:57.294Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-02T02:28:57.294Z"
             },
             {
               "$type": "Document",
@@ -207,8 +202,7 @@
               "RelativeToolTip": "NewAPI\\testAPI.Aplication\\Services\\AuthService.cs",
               "ViewState": "AgIAAJAAAAAAAAAAAAAmwEwAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T02:28:27.596Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-02T02:28:27.596Z"
             },
             {
               "$type": "Document",
@@ -220,8 +214,7 @@
               "RelativeToolTip": "NewAPI\\testAPI.Aplication\\Services\\StudentService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T02:25:43.219Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-02T02:25:43.219Z"
             },
             {
               "$type": "Document",
@@ -257,8 +250,7 @@
               "RelativeToolTip": "NewAPI\\testAPI.Domain\\Entities\\Student.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T09:31:45.312Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-18T09:31:45.312Z"
             },
             {
               "$type": "Document",
@@ -270,8 +262,7 @@
               "RelativeToolTip": "NewAPI\\testAPI.Aplication\\Interfaces\\IAuthService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T09:29:10.383Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-18T09:29:10.383Z"
             },
             {
               "$type": "Document",
@@ -295,8 +286,7 @@
               "RelativeToolTip": "NewAPI\\testAPI.Infrastructure\\Interfaces\\IUserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T09:26:24.066Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-18T09:26:24.066Z"
             },
             {
               "$type": "Document",
@@ -308,8 +298,7 @@
               "RelativeToolTip": "NewAPI\\testAPI.Infrastructure\\Repositories\\StudentRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T09:26:15.172Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-18T09:26:15.172Z"
             },
             {
               "$type": "Document",
@@ -321,8 +310,7 @@
               "RelativeToolTip": "NewAPI\\testAPI.Infrastructure\\Repositories\\UserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T09:26:01.719Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-18T09:26:01.719Z"
             },
             {
               "$type": "Document",
@@ -334,8 +322,7 @@
               "RelativeToolTip": "NewAPI\\testAPI.Aplication\\Interfaces\\IUserService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T09:25:25.558Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-18T09:25:25.558Z"
             },
             {
               "$type": "Document",
@@ -347,8 +334,7 @@
               "RelativeToolTip": "NewAPI\\testAPI.Aplication\\DTOs\\UpdateUserDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T09:24:59.868Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-18T09:24:59.868Z"
             },
             {
               "$type": "Document",
@@ -360,8 +346,7 @@
               "RelativeToolTip": "NewAPI\\testAPI.Aplication\\DTOs\\AddUserDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T09:24:42.529Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-18T09:24:42.529Z"
             },
             {
               "$type": "Document",
@@ -373,8 +358,7 @@
               "RelativeToolTip": "NewAPI\\testAPI.Aplication\\Interfaces\\IStudentService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T09:24:11.536Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-18T09:24:11.536Z"
             },
             {
               "$type": "Document",
@@ -386,8 +370,7 @@
               "RelativeToolTip": "NewAPI\\testAPI.Aplication\\DTOs\\UpdateStudentDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T09:24:07.712Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-18T09:24:07.712Z"
             },
             {
               "$type": "Document",
@@ -399,8 +382,7 @@
               "RelativeToolTip": "NewAPI\\testAPI.Aplication\\DTOs\\AddStudentDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T09:23:48.272Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-18T09:23:48.272Z"
             },
             {
               "$type": "Document",
@@ -412,8 +394,7 @@
               "RelativeToolTip": "NewAPI\\testAPI.API\\Controllers\\UsersController.cs",
               "ViewState": "AgIAAC4AAAAAAAAAAAAcwD4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T09:23:23.381Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-18T09:23:23.381Z"
             },
             {
               "$type": "Document",
@@ -425,8 +406,7 @@
               "RelativeToolTip": "NewAPI\\testAPI.API\\Controllers\\StudentsController.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAgwAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T09:22:26.522Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-18T09:22:26.522Z"
             },
             {
               "$type": "Document",
@@ -436,7 +416,7 @@
               "RelativeDocumentMoniker": "NewAPI\\testAPI.API\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.API\\Controllers\\AuthController.cs",
               "RelativeToolTip": "NewAPI\\testAPI.API\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAwwB8AAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAIwB8AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-18T09:22:18.23Z",
               "EditorCaption": ""
@@ -451,8 +431,7 @@
               "RelativeToolTip": "NewAPI\\testAPI.Domain\\Entities\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T09:22:07.512Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-18T09:22:07.512Z"
             },
             {
               "$type": "Document",

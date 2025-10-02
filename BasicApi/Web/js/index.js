@@ -39,10 +39,10 @@ async function loadPage(page) {
             if (typeof CrudModule === "undefined") {
                 const script = document.createElement("script");
                 script.src = "../js/studentcrud.js";
-                script.onload = () => CrudModule.initCrud();
+                script.onload = () => StudentCrudModule.initStudentCrud();
                 document.body.appendChild(script);
             } else {
-                CrudModule.initCrud();
+                CrudModule.initStudentCrud();
             }
         }
 
@@ -50,10 +50,10 @@ async function loadPage(page) {
             if (typeof CrudModule === "undefined") {
                 const script = document.createElement("script");
                 script.src = "../js/usercrud.js";
-                script.onload = () => CrudModule.initCrud();
+                script.onload = () => UserCrudModule.initUserCrud();
                 document.body.appendChild(script);
             } else {
-                CrudModule.initCrud();
+                CrudModule.initUserCrud();
             }
         }
 

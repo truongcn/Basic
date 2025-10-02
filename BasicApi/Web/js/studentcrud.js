@@ -1,5 +1,5 @@
 ﻿// crud.js
-const CrudModule = (() => {
+const StudentCrudModule = (() => {
   const apiBase = "http://localhost:5283/api";
   const token = localStorage.getItem("token");
 
@@ -166,7 +166,7 @@ const CrudModule = (() => {
   }
 
   // Khởi tạo
-  function initCrud() {
+  function initStudentCrud() {
     loadStudents();
 
     const form = document.getElementById("studentForm");
@@ -180,5 +180,5 @@ const CrudModule = (() => {
     if (addBtn) addBtn.onclick = () => openPopup();
   }
 
-  return { initCrud, openPopup, deleteStudent, searchStudents };
+  return { initStudentCrud, openPopup, deleteStudent, searchStudents };
 })();

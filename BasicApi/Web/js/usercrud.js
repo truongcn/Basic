@@ -1,5 +1,5 @@
 // usercrud.js
-const CrudModule = (() => {
+const UserCrudModule = (() => {
   const apiBase = "http://localhost:5283/api";
   const token = localStorage.getItem("token");
 
@@ -178,7 +178,7 @@ const dto = {
   }
 
   // Khởi tạo
-  function initCrud() {
+  function initUserCrud() {
     loadUsers();
 
     const form = document.getElementById("userForm");
@@ -192,5 +192,5 @@ const dto = {
     if (addBtn) addBtn.onclick = () => openPopup();
   }
 
-  return { initCrud, openPopup, deleteUser, searchUsers };
+  return { initUserCrud, openPopup, deleteUser, searchUsers };
 })();

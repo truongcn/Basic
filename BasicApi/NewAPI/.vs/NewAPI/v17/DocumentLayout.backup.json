@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|c:\\users\\truongnv3\\desktop\\basic\\basicapi\\newapi\\newapi\\testapi.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|solutionrelative:newapi\\testapi.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|c:\\users\\truongnv3\\desktop\\basic\\basicapi\\newapi\\newapi\\testapi.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|solutionrelative:newapi\\testapi.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -71,10 +75,6 @@
       "RelativeMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|solutionrelative:newapi\\testapi.aplication\\dtos\\adduserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|c:\\users\\truongnv3\\desktop\\basic\\basicapi\\newapi\\newapi\\testapi.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|solutionrelative:newapi\\testapi.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|c:\\users\\truongnv3\\desktop\\basic\\basicapi\\newapi\\newapi\\testapi.aplication\\interfaces\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|solutionrelative:newapi\\testapi.aplication\\interfaces\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -114,7 +114,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 25,
+          "SelectedChildIndex": 27,
           "Children": [
             {
               "$type": "Bookmark",
@@ -134,7 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "EmailVerificationToken.cs",
               "DocumentMoniker": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Domain\\Entities\\EmailVerificationToken.cs",
               "RelativeDocumentMoniker": "NewAPI\\testAPI.Domain\\Entities\\EmailVerificationToken.cs",
@@ -142,12 +142,11 @@
               "RelativeToolTip": "NewAPI\\testAPI.Domain\\Entities\\EmailVerificationToken.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T03:44:35.322Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-02T03:44:35.322Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Aplication\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "NewAPI\\testAPI.Aplication\\Services\\UserService.cs",
@@ -155,12 +154,11 @@
               "RelativeToolTip": "NewAPI\\testAPI.Aplication\\Services\\UserService.cs",
               "ViewState": "AgIAACgAAAAAAAAAAAAwwEoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T03:43:26.104Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-02T03:43:26.104Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "EmailService.cs",
               "DocumentMoniker": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Aplication\\Services\\EmailService.cs",
               "RelativeDocumentMoniker": "NewAPI\\testAPI.Aplication\\Services\\EmailService.cs",
@@ -168,8 +166,7 @@
               "RelativeToolTip": "NewAPI\\testAPI.Aplication\\Services\\EmailService.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T02:53:41.804Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-02T02:53:41.804Z"
             },
             {
               "$type": "Document",
@@ -181,8 +178,7 @@
               "RelativeToolTip": "NewAPI\\testAPI.Aplication\\DTOs\\AuthDtos.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAA0wAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T02:49:01.998Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-02T02:49:01.998Z"
             },
             {
               "$type": "Document",
@@ -194,12 +190,11 @@
               "RelativeToolTip": "NewAPI\\Migrations\\20250911170632_employ.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T02:28:57.294Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-02T02:28:57.294Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Aplication\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "NewAPI\\testAPI.Aplication\\Services\\AuthService.cs",
@@ -207,12 +202,11 @@
               "RelativeToolTip": "NewAPI\\testAPI.Aplication\\Services\\AuthService.cs",
               "ViewState": "AgIAAJAAAAAAAAAAAAAmwEwAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T02:28:27.596Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-02T02:28:27.596Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "StudentService.cs",
               "DocumentMoniker": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Aplication\\Services\\StudentService.cs",
               "RelativeDocumentMoniker": "NewAPI\\testAPI.Aplication\\Services\\StudentService.cs",
@@ -220,8 +214,7 @@
               "RelativeToolTip": "NewAPI\\testAPI.Aplication\\Services\\StudentService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T02:25:43.219Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-02T02:25:43.219Z"
             },
             {
               "$type": "Document",
@@ -249,7 +242,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Domain\\Entities\\Student.cs",
               "RelativeDocumentMoniker": "NewAPI\\testAPI.Domain\\Entities\\Student.cs",
@@ -257,12 +250,11 @@
               "RelativeToolTip": "NewAPI\\testAPI.Domain\\Entities\\Student.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T09:31:45.312Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-18T09:31:45.312Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "IAuthService.cs",
               "DocumentMoniker": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Aplication\\Interfaces\\IAuthService.cs",
               "RelativeDocumentMoniker": "NewAPI\\testAPI.Aplication\\Interfaces\\IAuthService.cs",
@@ -270,8 +262,7 @@
               "RelativeToolTip": "NewAPI\\testAPI.Aplication\\Interfaces\\IAuthService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T09:29:10.383Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-18T09:29:10.383Z"
             },
             {
               "$type": "Document",
@@ -287,7 +278,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Infrastructure\\Interfaces\\IUserRepository.cs",
               "RelativeDocumentMoniker": "NewAPI\\testAPI.Infrastructure\\Interfaces\\IUserRepository.cs",
@@ -295,12 +286,11 @@
               "RelativeToolTip": "NewAPI\\testAPI.Infrastructure\\Interfaces\\IUserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T09:26:24.066Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-18T09:26:24.066Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "StudentRepository.cs",
               "DocumentMoniker": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Infrastructure\\Repositories\\StudentRepository.cs",
               "RelativeDocumentMoniker": "NewAPI\\testAPI.Infrastructure\\Repositories\\StudentRepository.cs",
@@ -308,12 +298,11 @@
               "RelativeToolTip": "NewAPI\\testAPI.Infrastructure\\Repositories\\StudentRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T09:26:15.172Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-18T09:26:15.172Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Infrastructure\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "NewAPI\\testAPI.Infrastructure\\Repositories\\UserRepository.cs",
@@ -321,12 +310,11 @@
               "RelativeToolTip": "NewAPI\\testAPI.Infrastructure\\Repositories\\UserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T09:26:01.719Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-18T09:26:01.719Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "IUserService.cs",
               "DocumentMoniker": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Aplication\\Interfaces\\IUserService.cs",
               "RelativeDocumentMoniker": "NewAPI\\testAPI.Aplication\\Interfaces\\IUserService.cs",
@@ -334,12 +322,11 @@
               "RelativeToolTip": "NewAPI\\testAPI.Aplication\\Interfaces\\IUserService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T09:25:25.558Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-18T09:25:25.558Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "UpdateUserDto.cs",
               "DocumentMoniker": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Aplication\\DTOs\\UpdateUserDto.cs",
               "RelativeDocumentMoniker": "NewAPI\\testAPI.Aplication\\DTOs\\UpdateUserDto.cs",
@@ -347,12 +334,11 @@
               "RelativeToolTip": "NewAPI\\testAPI.Aplication\\DTOs\\UpdateUserDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T09:24:59.868Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-18T09:24:59.868Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "AddUserDto.cs",
               "DocumentMoniker": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Aplication\\DTOs\\AddUserDto.cs",
               "RelativeDocumentMoniker": "NewAPI\\testAPI.Aplication\\DTOs\\AddUserDto.cs",
@@ -360,8 +346,7 @@
               "RelativeToolTip": "NewAPI\\testAPI.Aplication\\DTOs\\AddUserDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T09:24:42.529Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-18T09:24:42.529Z"
             },
             {
               "$type": "Document",
@@ -373,8 +358,7 @@
               "RelativeToolTip": "NewAPI\\testAPI.Aplication\\Interfaces\\IStudentService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T09:24:11.536Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-18T09:24:11.536Z"
             },
             {
               "$type": "Document",
@@ -386,12 +370,11 @@
               "RelativeToolTip": "NewAPI\\testAPI.Aplication\\DTOs\\UpdateStudentDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T09:24:07.712Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-18T09:24:07.712Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "AddStudentDto.cs",
               "DocumentMoniker": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Aplication\\DTOs\\AddStudentDto.cs",
               "RelativeDocumentMoniker": "NewAPI\\testAPI.Aplication\\DTOs\\AddStudentDto.cs",
@@ -399,25 +382,23 @@
               "RelativeToolTip": "NewAPI\\testAPI.Aplication\\DTOs\\AddStudentDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T09:23:48.272Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-18T09:23:48.272Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.API\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "NewAPI\\testAPI.API\\Controllers\\UsersController.cs",
               "ToolTip": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.API\\Controllers\\UsersController.cs",
               "RelativeToolTip": "NewAPI\\testAPI.API\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAcwD4AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAcwD4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T09:23:23.381Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-18T09:23:23.381Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "StudentsController.cs",
               "DocumentMoniker": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.API\\Controllers\\StudentsController.cs",
               "RelativeDocumentMoniker": "NewAPI\\testAPI.API\\Controllers\\StudentsController.cs",
@@ -425,25 +406,24 @@
               "RelativeToolTip": "NewAPI\\testAPI.API\\Controllers\\StudentsController.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAgwAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T09:22:26.522Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-18T09:22:26.522Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 0,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.API\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "NewAPI\\testAPI.API\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.API\\Controllers\\AuthController.cs",
               "RelativeToolTip": "NewAPI\\testAPI.API\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAwwB8AAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAIwB8AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-18T09:22:18.23Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Domain\\Entities\\User.cs",
               "RelativeDocumentMoniker": "NewAPI\\testAPI.Domain\\Entities\\User.cs",
@@ -451,8 +431,7 @@
               "RelativeToolTip": "NewAPI\\testAPI.Domain\\Entities\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T09:22:07.512Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-18T09:22:07.512Z"
             },
             {
               "$type": "Document",
