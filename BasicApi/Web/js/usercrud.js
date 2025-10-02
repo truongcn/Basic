@@ -67,27 +67,27 @@ const CrudModule = (() => {
   }
 
   // Mở popup add/edit
-  function openPopup(user = null) {
-    const popup = document.getElementById("popupForm");
-    const popupTitle = document.getElementById("popupTitle");
-    const hiddenId = document.getElementById("userId");
-    const form = document.getElementById("userForm");
+function openPopup(user = null) {
+  const popup = document.getElementById("popupForm");
+  const popupTitle = document.getElementById("popupTitle");
+  const hiddenId = document.getElementById("userId");
+  const form = document.getElementById("userForm");
 
-    if (user) {
-      popupTitle.textContent = "Edit User";
-      hiddenId.value = user.id;
-      document.getElementById("username").value = user.username;
-      document.getElementById("email").value = user.email;
-      document.getElementById("passwordhash").value = user.passwordhash || "";
-      document.getElementById("role").value = user.role;
-      document.getElementById("emailconfirm").value = user.emailconfirm || "";
-    } else {
-      popupTitle.textContent = "Add User";
-      hiddenId.value = "";
-      form.reset();
-    }
-    popup.style.display = "block";
+  if (user) {
+    popupTitle.textContent = "Edit User";
+    hiddenId.value = user.id;
+    document.getElementById("username").value = user.username;
+    document.getElementById("email").value = user.email;
+    document.getElementById("password").value = ""; // để trống, chỉ nhập khi muốn đổi
+    document.getElementById("role").value = user.role;
+    document.getElementById("emailconfirm").value = user.emailconfirm || "";
+  } else {
+    popupTitle.textContent = "Add User";
+    hiddenId.value = "";
+    form.reset();
   }
+  popup.style.display = "block";
+}
 
   // Đóng popup
   function closePopup() {
@@ -95,40 +95,43 @@ const CrudModule = (() => {
   }
 
   // Submit form
-  async function saveUser(e) {
-    e.preventDefault();
-    const hiddenId = document.getElementById("userId");
-    const id = hiddenId.value;
+async function saveUser(e) {
+  e.preventDefault();
+  const hiddenId = document.getElementById("userId");
+  const id = hiddenId.value;
+  const username = document.getElementById("username").value;
+  const email = document.getElementById("email").value;
+  const password = document.getElementById("password").value; 
+  const role = document.getElementById("role").value;
+  const emailConfirmed = document.getElementById("emailconfirm").checked;
 
-    const userData = {
-      username: document.getElementById("username").value,
-      email: document.getElementById("email").value,
-      passwordhash: document.getElementById("passwordhash").value,
-      role: document.getElementById("role").value,
-      emailconfirm: document.getElementById("emailconfirm").value,
-    };
+const dto = { 
+    id: id ? parseInt(id) : 0,
+    username, 
+    email, 
+    password,  // gửi plain password
+    role, 
+    emailConfirmed 
+  };
 
-    const url = id ? `${apiBase}/Users/${id}` : `${apiBase}/Users`;
-    const method = id ? "PUT" : "POST";
+  const url = id ? `${apiBase}/Users/${id}` : `${apiBase}/Users`;
+  const method = id ? "PUT" : "POST";
 
-    const res = await fetch(url, {
-      method,
-      headers: {
-        "Content-Type": "application/json",
-        "Authorization": `Bearer ${token}`
-      },
-      body: JSON.stringify(userData)
-    });
+  const res = await fetch(url, {
+    method,
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(dto)
+  });
 
-    if (res.ok) {
-      closePopup();
-      alert("Success!");
-      loadUsers();
-    } else {
-      const err = await res.json();
-      alert(err.message || "Error saving user");
-    }
+  if (res.ok) {
+    closePopup();
+    alert("Success!");
+    loadUsers();
+  } else {
+    const err = await res.json();
+    alert(err.message || "Error saving user");
   }
+}
 
   // Xóa
   async function deleteUser(id) {

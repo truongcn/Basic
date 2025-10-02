@@ -30,7 +30,7 @@ namespace NewAPI.testAPI.API.Controllers
             return Ok(user);
         }
 
-        [HttpGet("by-username/{username}")]
+        [HttpGet("{username}")]
         public async Task<IActionResult> GetByUsername(string username)
         {
             var user = await _userService.GetByUsernameAsync(username);
@@ -45,12 +45,21 @@ namespace NewAPI.testAPI.API.Controllers
             return CreatedAtAction(nameof(GetById), new { id = user.Id }, user);
         }
 
-        [HttpPut]
-        public async Task<IActionResult> UpdateUser([FromBody] UpdateUserDto dto)
+        [HttpPut("{id}")]
+        public async Task<IActionResult> Update(int id, [FromBody] UpdateUserDto dto)
         {
-            var user = await _userService.UpdateUserAsync(dto);
-            if (user == null) return NotFound();
-            return Ok(user);
+            if (id != dto.Id)
+            {
+                return BadRequest(new { message = "Id mismatch" });
+            }
+
+            var updatedUser = await _userService.UpdateUserAsync(dto);
+            if (updatedUser == null)
+            {
+                return NotFound(new { message = $"User with id {id} not found" });
+            }
+
+            return Ok(updatedUser);
         }
 
         [HttpDelete("{id:int}")]

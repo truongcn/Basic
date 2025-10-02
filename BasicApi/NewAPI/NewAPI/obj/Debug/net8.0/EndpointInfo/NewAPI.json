@@ -290,10 +290,44 @@
             "description": "OK"
           }
         }
+      }
+    },
+    "/api/Users/{id}": {
+      "get": {
+        "tags": [
+          "Users"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
       },
       "put": {
         "tags": [
           "Users"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
         ],
         "requestBody": {
           "content": {
@@ -314,29 +348,6 @@
             }
           }
         },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/Users/{id}": {
-      "get": {
-        "tags": [
-          "Users"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -365,7 +376,7 @@
         }
       }
     },
-    "/api/Users/by-username/{username}": {
+    "/api/Users/{username}": {
       "get": {
         "tags": [
           "Users"
@@ -419,7 +430,7 @@
             "type": "string",
             "nullable": true
           },
-          "passwordHash": {
+          "password": {
             "type": "string",
             "nullable": true
           },
@@ -506,7 +517,7 @@
             "type": "string",
             "nullable": true
           },
-          "passwordHash": {
+          "password": {
             "type": "string",
             "nullable": true
           },

@@ -175,22 +175,6 @@
   },
   {
     "ContainingType": "NewAPI.testAPI.API.Controllers.UsersController",
-    "Method": "UpdateUser",
-    "RelativePath": "api/Users",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "dto",
-        "Type": "NewAPI.testAPI.Application.DTOs.UpdateUserDto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "NewAPI.testAPI.API.Controllers.UsersController",
     "Method": "GetById",
     "RelativePath": "api/Users/{id}",
     "HttpMethod": "GET",
@@ -200,6 +184,27 @@
       {
         "Name": "id",
         "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NewAPI.testAPI.API.Controllers.UsersController",
+    "Method": "Update",
+    "RelativePath": "api/Users/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "NewAPI.testAPI.Application.DTOs.UpdateUserDto",
         "IsRequired": true
       }
     ],
@@ -224,7 +229,7 @@
   {
     "ContainingType": "NewAPI.testAPI.API.Controllers.UsersController",
     "Method": "GetByUsername",
-    "RelativePath": "api/Users/by-username/{username}",
+    "RelativePath": "api/Users/{username}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

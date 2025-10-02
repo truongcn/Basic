@@ -27,7 +27,7 @@ async function register() {
       const data = await loginRes.json();
       localStorage.setItem("token", data.token); // save token
       alert("Register and Login success!");
-      window.location.href = "crud.html"; // next to CRUD
+      window.location.href = "../index.html"; // next to CRUD
     } else {
       alert("Register success but can't Login!");
     }
