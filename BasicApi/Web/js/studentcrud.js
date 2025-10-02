@@ -1,5 +1,4 @@
-﻿// crud.js
-const StudentCrudModule = (() => {
+﻿const StudentCrudModule = (() => {
   const apiBase = "http://localhost:5283/api";
   const token = localStorage.getItem("token");
 
@@ -15,8 +14,8 @@ const StudentCrudModule = (() => {
       <td>${s.phone}</td>
       <td>${s.description || ""}</td>
       <td>
-        <button onclick='CrudModule.openPopup(${JSON.stringify(s)})' class="btn-edit">Edit</button>
-        <button onclick="CrudModule.deleteStudent('${s.id}')" class="btn-delete">Delete</button>
+        <button onclick='StudentCrudModule.openPopup(${JSON.stringify(s)})' class="btn-edit">Edit</button>
+        <button onclick="StudentCrudModule.deleteStudent('${s.id}')" class="btn-delete">Delete</button>
       </td>
     `;
     return row;

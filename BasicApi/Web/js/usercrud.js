@@ -1,4 +1,3 @@
-// usercrud.js
 const UserCrudModule = (() => {
   const apiBase = "http://localhost:5283/api";
   const token = localStorage.getItem("token");
@@ -13,12 +12,11 @@ const UserCrudModule = (() => {
     row.innerHTML = `
       <td>${u.username}</td>
       <td>${u.email}</td>
-      <td>${u.passwordhash}</td>
       <td>${u.role}</td>
       <td>${u.emailconfirm}</td>
       <td>
-        <button onclick='CrudModule.openPopup(${JSON.stringify(u)})' class="btn-edit">Edit</button>
-        <button onclick="CrudModule.deleteUser('${u.id}')" class="btn-delete">Delete</button>
+        <button onclick='UserCrudModule.openPopup(${JSON.stringify(u)})' class="btn-edit">Edit</button>
+        <button onclick="UserCrudModule.deleteUser('${u.id}')" class="btn-delete">Delete</button>
       </td>
     `;
     return row;

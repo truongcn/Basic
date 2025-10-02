@@ -4,6 +4,7 @@ using Microsoft.IdentityModel.Tokens;
 using NewAPI.testAPI.Application.Interfaces;
 using NewAPI.testAPI.Application.Services;
 using System.Text;
+using System.Text.Json.Serialization;
 using testAPI.Application.Interfaces;
 using testAPI.Application.Services;
 using testAPI.Infrastructure.Interfaces;
@@ -28,6 +29,18 @@ builder.Services.AddTransient<IEmailService, EmailService>();
 
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
+
+builder.Services.AddScoped<ITeacherRepository, TeacherRepository>();
+builder.Services.AddScoped<TeacherService>();
+
+//controller
+builder.Services.AddControllers()
+    .AddJsonOptions(opt =>
+    {
+        opt.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
+        opt.JsonSerializerOptions.WriteIndented = true;
+    });
+
 
 
 //CORS

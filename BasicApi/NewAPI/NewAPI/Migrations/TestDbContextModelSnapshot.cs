@@ -81,11 +81,45 @@ namespace NewAPI.Migrations
                     b.ToTable("Users");
                 });
 
+            modelBuilder.Entity("testAPI.Domain.Entities.StudentTeacher", b =>
+                {
+                    b.Property<int>("StudentId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("TeacherId")
+                        .HasColumnType("int");
+
+                    b.HasKey("StudentId", "TeacherId");
+
+                    b.HasIndex("TeacherId");
+
+                    b.ToTable("StudentTeachers");
+                });
+
+            modelBuilder.Entity("testAPI.Domain.Entities.Teacher", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Teachers");
+                });
+
             modelBuilder.Entity("testAPI.testAPI.Domain.Entities.Student", b =>
                 {
-                    b.Property<Guid>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
@@ -110,6 +144,35 @@ namespace NewAPI.Migrations
                         .IsRequired();
 
                     b.Navigation("User");
+                });
+
+            modelBuilder.Entity("testAPI.Domain.Entities.StudentTeacher", b =>
+                {
+                    b.HasOne("testAPI.testAPI.Domain.Entities.Student", "Student")
+                        .WithMany("StudentTeachers")
+                        .HasForeignKey("StudentId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("testAPI.Domain.Entities.Teacher", "Teacher")
+                        .WithMany("StudentTeachers")
+                        .HasForeignKey("TeacherId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Student");
+
+                    b.Navigation("Teacher");
+                });
+
+            modelBuilder.Entity("testAPI.Domain.Entities.Teacher", b =>
+                {
+                    b.Navigation("StudentTeachers");
+                });
+
+            modelBuilder.Entity("testAPI.testAPI.Domain.Entities.Student", b =>
+                {
+                    b.Navigation("StudentTeachers");
                 });
 #pragma warning restore 612, 618
         }

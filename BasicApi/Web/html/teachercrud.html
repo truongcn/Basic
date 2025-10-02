@@ -1,57 +1,58 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <title>Student CRUD</title>
+    <title>Teacher CRUD</title>
     <link rel="stylesheet" type="text/css" href="../css/curd.css">
 </head>
 
 <body>
     <div class="container">
-        <h1><b>Student Management</b></h1>
+        <h1><b>Teacher Management</b></h1>
 
+        <!-- Popup Form -->
         <div id="popupForm" class="popup">
             <div class="popup-content">
                 <span class="close-btn" id="closePopup">&times;</span>
-                <h2 id="popupTitle">Add Student</h2>
-                <form id="studentForm">
-                    <input type="hidden" id="studentId">
+                <h2 id="popupTitle">Add Teacher</h2>
+                <form id="teacherForm">
+                    <input type="hidden" id="teacherId">
                     <input type="text" id="name" placeholder="Name" required><br><br>
-                    <input type="text" id="phone" placeholder="Phone" required><br><br>
-                    <input type="text" id="description" placeholder="Description"><br><br>
+                    <label for="studentIds">Assign Students (comma separated IDs):</label><br>
+                    <input type="text" id="studentIds" placeholder="e.g. 1,2,3"><br><br>
                     <button type="submit">Save</button>
                 </form>
             </div>
         </div>
 
-
-        <!-- Student Table -->
+        <!-- Action bar -->
         <div class="actions-bar">
             <div class="toolbar">
-                <button id="btn-add-student">Add New Student</button>
+                <button id="btn-add-teacher">Add New Teacher</button>
             </div>
 
             <div>
                 <input type="text" id="searchBox" placeholder="Search...">
-                <button onclick="StudentCrudModule.searchStudents(document.getElementById('searchBox').value)">Search</button>
+                <button onclick="TeacherCrudModule.searchTeachers(document.getElementById('searchBox').value)">Search</button>
 
             </div>
         </div>
 
-        <table border="1" id="studentTable">
+        <!-- Table -->
+        <table border="1" id="teacherTable">
             <thead>
                 <tr>
-                    <th>Name</th>
-                    <th>Phone</th>
-                    <th>Description</th>
+                    <th>ID</th>
+                    <th>Teacher</th>
+                    <th>Students</th>
                     <th>Actions</th>
                 </tr>
             </thead>
             <tbody></tbody>
         </table>
 
-        <script src="../js/studentcrud.js"></script>
+    <script src="../js/teachercrud.js"></script>
 </body>
 
 <footer>

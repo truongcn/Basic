@@ -36,26 +36,26 @@ async function loadPage(page) {
 
         // Nếu load CRUD thì reset script crud.js
         if (page.includes("studentcrud.html")) {
-            if (typeof CrudModule === "undefined") {
-                const script = document.createElement("script");
-                script.src = "../js/studentcrud.js";
-                script.onload = () => StudentCrudModule.initStudentCrud();
-                document.body.appendChild(script);
-            } else {
-                CrudModule.initStudentCrud();
-            }
+            const script = document.createElement("script");
+            script.src = "../js/studentcrud.js";
+            script.onload = () => StudentCrudModule.initStudentCrud();
+            document.body.appendChild(script);
         }
 
         else if (page.includes("usercrud.html")) {
-            if (typeof CrudModule === "undefined") {
-                const script = document.createElement("script");
-                script.src = "../js/usercrud.js";
-                script.onload = () => UserCrudModule.initUserCrud();
-                document.body.appendChild(script);
-            } else {
-                CrudModule.initUserCrud();
-            }
+            const script = document.createElement("script");
+            script.src = "../js/usercrud.js";
+            script.onload = () => UserCrudModule.initUserCrud();
+            document.body.appendChild(script);
         }
+
+        if (page.includes("teachercrud.html")) {
+            const script = document.createElement("script");
+            script.src = "../js/teachercrud.js";
+            script.onload = () => TeacherCrudModule.initTeacherCrud();
+            document.body.appendChild(script);
+        }
+
 
 
     } catch (err) {

@@ -27,7 +27,6 @@
             </div>
         </div>
 
-
         <!-- user Table -->
         <div class="actions-bar">
             <div class="toolbar">
@@ -36,7 +35,7 @@
 
             <div>
                 <input type="text" id="searchBox" placeholder="Search...">
-                <button onclick="CrudModule.searchUsers(document.getElementById('searchBox').value)">Search</button>
+                <button onclick="UserCrudModule.searchUsers(document.getElementById('searchBox').value)">Search</button>
 
             </div>
         </div>
@@ -46,7 +45,6 @@
                 <tr>
                     <th>Username</th>
                     <th>Email</th>
-                    <th>Passwordhash</th>
                     <th>Role</th>
                     <th>EmailConfirm</th>
                     <th>Actions</th>
