@@ -1,4 +1,5 @@
 ﻿using testAPI.Application.Interfaces;
+using testAPI.Infrastructure.Repositories;
 using testAPI.testAPI.Aplication.DTOs;
 using testAPI.testAPI.Domain.Entities;
 using testAPI.testAPI.Infrastructure.Interfaces;
@@ -13,8 +14,12 @@ namespace testAPI.Application.Services
         {
             _repository = repository;
         }
+        public IEnumerable<Student> GetAll()
+        {
+            return _repository.GetAll();
+        }
 
-        public IEnumerable<Student> GetAll() => _repository.GetAll();
+
 
         public Student? GetById(Guid id) => _repository.GetById(id);
 
@@ -24,6 +29,7 @@ namespace testAPI.Application.Services
             {
                 Name = dto.Name,
                 Phone = dto.Phone,
+                Classes = dto.Classes,
                 Description = dto.Description
             };
             _repository.Add(student);
@@ -38,6 +44,7 @@ namespace testAPI.Application.Services
 
             student.Name = dto.Name;
             student.Phone = dto.Phone;
+            student.Classes = dto.Classes;
             student.Description = dto.Description;
             _repository.Update(student);
             _repository.SaveChanges();

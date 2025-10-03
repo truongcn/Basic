@@ -3,40 +3,104 @@
   "WorkspaceRootPath": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|c:\\users\\truongnv3\\desktop\\basic\\basicapi\\newapi\\newapi\\testapi.infrastructure\\data\\testdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|solutionrelative:newapi\\testapi.infrastructure\\data\\testdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|c:\\users\\truongnv3\\desktop\\basic\\basicapi\\newapi\\newapi\\testapi.domain\\entities\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|solutionrelative:newapi\\testapi.domain\\entities\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|c:\\users\\truongnv3\\desktop\\basic\\basicapi\\newapi\\newapi\\testapi.aplication\\services\\teacherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|solutionrelative:newapi\\testapi.aplication\\services\\teacherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|c:\\users\\truongnv3\\desktop\\basic\\basicapi\\newapi\\newapi\\testapi.api\\controllers\\teacherscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|solutionrelative:newapi\\testapi.api\\controllers\\teacherscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|c:\\users\\truongnv3\\desktop\\basic\\basicapi\\newapi\\newapi\\testapi.domain\\entities\\studentteachers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|solutionrelative:newapi\\testapi.domain\\entities\\studentteachers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|c:\\users\\truongnv3\\desktop\\basic\\basicapi\\newapi\\newapi\\testapi.domain\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|solutionrelative:newapi\\testapi.domain\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|c:\\users\\truongnv3\\desktop\\basic\\basicapi\\newapi\\newapi\\testapi.aplication\\interfaces\\iteacherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|solutionrelative:newapi\\testapi.aplication\\interfaces\\iteacherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|c:\\users\\truongnv3\\desktop\\basic\\basicapi\\newapi\\newapi\\testapi.aplication\\dtos\\updateteacherdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|solutionrelative:newapi\\testapi.aplication\\dtos\\updateteacherdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|c:\\users\\truongnv3\\desktop\\basic\\basicapi\\newapi\\newapi\\testapi.aplication\\dtos\\addteacherdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|solutionrelative:newapi\\testapi.aplication\\dtos\\addteacherdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\Migrations\\20251003035309_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:NewAPI\\Migrations\\20251003035309_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|c:\\users\\truongnv3\\desktop\\basic\\basicapi\\newapi\\newapi\\testapi.infrastructure\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|solutionrelative:newapi\\testapi.infrastructure\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|c:\\users\\truongnv3\\desktop\\basic\\basicapi\\newapi\\newapi\\testapi.aplication\\services\\teacherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|solutionrelative:newapi\\testapi.aplication\\services\\teacherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|c:\\users\\truongnv3\\desktop\\basic\\basicapi\\newapi\\newapi\\testapi.domain\\entities\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|solutionrelative:newapi\\testapi.domain\\entities\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|c:\\users\\truongnv3\\desktop\\basic\\basicapi\\newapi\\newapi\\testapi.infrastructure\\repositories\\teacherrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|solutionrelative:newapi\\testapi.infrastructure\\repositories\\teacherrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|c:\\users\\truongnv3\\desktop\\basic\\basicapi\\newapi\\newapi\\testapi.infrastructure\\interfaces\\iteacherrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|solutionrelative:newapi\\testapi.infrastructure\\interfaces\\iteacherrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|c:\\users\\truongnv3\\desktop\\basic\\basicapi\\newapi\\newapi\\testapi.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|solutionrelative:newapi\\testapi.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|c:\\users\\truongnv3\\desktop\\basic\\basicapi\\newapi\\newapi\\testapi.aplication\\interfaces\\iteacherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|solutionrelative:newapi\\testapi.aplication\\interfaces\\iteacherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|c:\\users\\truongnv3\\desktop\\basic\\basicapi\\newapi\\newapi\\testapi.aplication\\dtos\\updatestudentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|solutionrelative:newapi\\testapi.aplication\\dtos\\updatestudentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|c:\\users\\truongnv3\\desktop\\basic\\basicapi\\newapi\\newapi\\testapi.aplication\\dtos\\addstudentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|solutionrelative:newapi\\testapi.aplication\\dtos\\addstudentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|c:\\users\\truongnv3\\desktop\\basic\\basicapi\\newapi\\newapi\\testapi.api\\controllers\\teacherscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|solutionrelative:newapi\\testapi.api\\controllers\\teacherscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|c:\\users\\truongnv3\\desktop\\basic\\basicapi\\newapi\\newapi\\testapi.api\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|solutionrelative:newapi\\testapi.api\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|c:\\users\\truongnv3\\desktop\\basic\\basicapi\\newapi\\newapi\\testapi.aplication\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|solutionrelative:newapi\\testapi.aplication\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\Migrations\\20251003024117_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:NewAPI\\Migrations\\20251003024117_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\Migrations\\20251003024044_a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:NewAPI\\Migrations\\20251003024044_a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|c:\\users\\truongnv3\\desktop\\basic\\basicapi\\newapi\\newapi\\testapi.infrastructure\\interfaces\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|solutionrelative:newapi\\testapi.infrastructure\\interfaces\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|c:\\users\\truongnv3\\desktop\\basic\\basicapi\\newapi\\newapi\\testapi.domain\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|solutionrelative:newapi\\testapi.domain\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|c:\\users\\truongnv3\\desktop\\basic\\basicapi\\newapi\\newapi\\testapi.aplication\\interfaces\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|solutionrelative:newapi\\testapi.aplication\\interfaces\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|c:\\users\\truongnv3\\desktop\\basic\\basicapi\\newapi\\newapi\\testapi.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|solutionrelative:newapi\\testapi.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\Migrations\\20251003023237_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:NewAPI\\Migrations\\20251003023237_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|c:\\users\\truongnv3\\desktop\\basic\\basicapi\\newapi\\newapi\\testapi.domain\\entities\\classes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|solutionrelative:newapi\\testapi.domain\\entities\\classes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|c:\\users\\truongnv3\\desktop\\basic\\basicapi\\newapi\\newapi\\testapi.infrastructure\\data\\testdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|solutionrelative:newapi\\testapi.infrastructure\\data\\testdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|c:\\users\\truongnv3\\desktop\\basic\\basicapi\\newapi\\newapi\\testapi.domain\\entities\\studentteachers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|solutionrelative:newapi\\testapi.domain\\entities\\studentteachers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DDCBAA22-6A2B-4C03-A005-B0C37CF150F5}|NewAPI\\NewAPI.csproj|c:\\users\\truongnv3\\desktop\\basic\\basicapi\\newapi\\newapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,7 +114,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 27,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,33 +134,239 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "20251003035309_test.cs",
+              "DocumentMoniker": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\Migrations\\20251003035309_test.cs",
+              "RelativeDocumentMoniker": "NewAPI\\Migrations\\20251003035309_test.cs",
+              "ToolTip": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\Migrations\\20251003035309_test.cs",
+              "RelativeToolTip": "NewAPI\\Migrations\\20251003035309_test.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T03:53:09.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ITeacherRepository.cs",
+              "DocumentMoniker": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Infrastructure\\Interfaces\\ITeacherRepository.cs",
+              "RelativeDocumentMoniker": "NewAPI\\testAPI.Infrastructure\\Interfaces\\ITeacherRepository.cs",
+              "ToolTip": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Infrastructure\\Interfaces\\ITeacherRepository.cs",
+              "RelativeToolTip": "NewAPI\\testAPI.Infrastructure\\Interfaces\\ITeacherRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T03:44:06.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20251003024117_test.cs",
+              "DocumentMoniker": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\Migrations\\20251003024117_test.cs",
+              "RelativeDocumentMoniker": "NewAPI\\Migrations\\20251003024117_test.cs",
+              "ToolTip": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\Migrations\\20251003024117_test.cs",
+              "RelativeToolTip": "NewAPI\\Migrations\\20251003024117_test.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T02:41:17.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20251003024044_a.cs",
+              "DocumentMoniker": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\Migrations\\20251003024044_a.cs",
+              "RelativeDocumentMoniker": "NewAPI\\Migrations\\20251003024044_a.cs",
+              "ToolTip": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\Migrations\\20251003024044_a.cs",
+              "RelativeToolTip": "NewAPI\\Migrations\\20251003024044_a.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T02:40:44.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20251003023237_test.cs",
+              "DocumentMoniker": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\Migrations\\20251003023237_test.cs",
+              "RelativeDocumentMoniker": "NewAPI\\Migrations\\20251003023237_test.cs",
+              "ToolTip": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\Migrations\\20251003023237_test.cs",
+              "RelativeToolTip": "NewAPI\\Migrations\\20251003023237_test.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T02:32:37.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TeacherRepository.cs",
+              "DocumentMoniker": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Infrastructure\\Repositories\\TeacherRepository.cs",
+              "RelativeDocumentMoniker": "NewAPI\\testAPI.Infrastructure\\Repositories\\TeacherRepository.cs",
+              "ToolTip": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Infrastructure\\Repositories\\TeacherRepository.cs",
+              "RelativeToolTip": "NewAPI\\testAPI.Infrastructure\\Repositories\\TeacherRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T02:31:30.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Infrastructure\\Repositories\\StudentRepository.cs",
+              "RelativeDocumentMoniker": "NewAPI\\testAPI.Infrastructure\\Repositories\\StudentRepository.cs",
+              "ToolTip": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Infrastructure\\Repositories\\StudentRepository.cs",
+              "RelativeToolTip": "NewAPI\\testAPI.Infrastructure\\Repositories\\StudentRepository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T02:25:41.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IStudentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Infrastructure\\Interfaces\\IStudentRepository.cs",
+              "RelativeDocumentMoniker": "NewAPI\\testAPI.Infrastructure\\Interfaces\\IStudentRepository.cs",
+              "ToolTip": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Infrastructure\\Interfaces\\IStudentRepository.cs",
+              "RelativeToolTip": "NewAPI\\testAPI.Infrastructure\\Interfaces\\IStudentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T02:25:36.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IStudentService.cs",
+              "DocumentMoniker": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Aplication\\Interfaces\\IStudentService.cs",
+              "RelativeDocumentMoniker": "NewAPI\\testAPI.Aplication\\Interfaces\\IStudentService.cs",
+              "ToolTip": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Aplication\\Interfaces\\IStudentService.cs",
+              "RelativeToolTip": "NewAPI\\testAPI.Aplication\\Interfaces\\IStudentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T02:24:14.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UpdateStudentDto.cs",
+              "DocumentMoniker": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Aplication\\DTOs\\UpdateStudentDto.cs",
+              "RelativeDocumentMoniker": "NewAPI\\testAPI.Aplication\\DTOs\\UpdateStudentDto.cs",
+              "ToolTip": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Aplication\\DTOs\\UpdateStudentDto.cs",
+              "RelativeToolTip": "NewAPI\\testAPI.Aplication\\DTOs\\UpdateStudentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T02:24:08.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AddStudentDto.cs",
+              "DocumentMoniker": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Aplication\\DTOs\\AddStudentDto.cs",
+              "RelativeDocumentMoniker": "NewAPI\\testAPI.Aplication\\DTOs\\AddStudentDto.cs",
+              "ToolTip": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Aplication\\DTOs\\AddStudentDto.cs",
+              "RelativeToolTip": "NewAPI\\testAPI.Aplication\\DTOs\\AddStudentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T02:23:34.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.API\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "NewAPI\\testAPI.API\\Controllers\\StudentsController.cs",
+              "ToolTip": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.API\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "NewAPI\\testAPI.API\\Controllers\\StudentsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T02:23:24.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "NewAPI\\testAPI.Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "NewAPI\\testAPI.Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T02:20:50.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Classes.cs",
+              "DocumentMoniker": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Domain\\Entities\\Classes.cs",
+              "RelativeDocumentMoniker": "NewAPI\\testAPI.Domain\\Entities\\Classes.cs",
+              "ToolTip": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Domain\\Entities\\Classes.cs",
+              "RelativeToolTip": "NewAPI\\testAPI.Domain\\Entities\\Classes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T02:20:46.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Aplication\\Services\\StudentService.cs",
+              "RelativeDocumentMoniker": "NewAPI\\testAPI.Aplication\\Services\\StudentService.cs",
+              "ToolTip": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Aplication\\Services\\StudentService.cs",
+              "RelativeToolTip": "NewAPI\\testAPI.Aplication\\Services\\StudentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T09:57:50.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "NewAPI\\testAPI.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "NewAPI\\testAPI.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T09:56:33.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "TestDbContext.cs",
               "DocumentMoniker": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Infrastructure\\Data\\TestDbContext.cs",
               "RelativeDocumentMoniker": "NewAPI\\testAPI.Infrastructure\\Data\\TestDbContext.cs",
               "ToolTip": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Infrastructure\\Data\\TestDbContext.cs",
               "RelativeToolTip": "NewAPI\\testAPI.Infrastructure\\Data\\TestDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAwwBQAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-02T09:18:16.83Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 18,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Domain\\Entities\\Student.cs",
               "RelativeDocumentMoniker": "NewAPI\\testAPI.Domain\\Entities\\Student.cs",
               "ToolTip": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Domain\\Entities\\Student.cs",
               "RelativeToolTip": "NewAPI\\testAPI.Domain\\Entities\\Student.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-02T09:15:40.473Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 24,
               "Title": "StudentTeachers.cs",
               "DocumentMoniker": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Domain\\Entities\\StudentTeachers.cs",
               "RelativeDocumentMoniker": "NewAPI\\testAPI.Domain\\Entities\\StudentTeachers.cs",
@@ -109,33 +379,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Teacher.cs",
               "DocumentMoniker": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Domain\\Entities\\Teacher.cs",
               "RelativeDocumentMoniker": "NewAPI\\testAPI.Domain\\Entities\\Teacher.cs",
               "ToolTip": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Domain\\Entities\\Teacher.cs",
               "RelativeToolTip": "NewAPI\\testAPI.Domain\\Entities\\Teacher.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-02T09:14:16Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "TeacherService.cs",
               "DocumentMoniker": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Aplication\\Services\\TeacherService.cs",
               "RelativeDocumentMoniker": "NewAPI\\testAPI.Aplication\\Services\\TeacherService.cs",
               "ToolTip": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Aplication\\Services\\TeacherService.cs",
               "RelativeToolTip": "NewAPI\\testAPI.Aplication\\Services\\TeacherService.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAmwAAAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAowDAAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-02T08:51:59.177Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "ITeacherService.cs",
               "DocumentMoniker": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Aplication\\Interfaces\\ITeacherService.cs",
               "RelativeDocumentMoniker": "NewAPI\\testAPI.Aplication\\Interfaces\\ITeacherService.cs",
@@ -148,52 +418,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 25,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\Program.cs",
               "RelativeDocumentMoniker": "NewAPI\\Program.cs",
               "ToolTip": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\Program.cs",
               "RelativeToolTip": "NewAPI\\Program.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACMAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAIBZwCMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-02T09:05:45.494Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "UpdateTeacherDto.cs",
               "DocumentMoniker": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Aplication\\DTOs\\UpdateTeacherDto.cs",
               "RelativeDocumentMoniker": "NewAPI\\testAPI.Aplication\\DTOs\\UpdateTeacherDto.cs",
               "ToolTip": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Aplication\\DTOs\\UpdateTeacherDto.cs",
               "RelativeToolTip": "NewAPI\\testAPI.Aplication\\DTOs\\UpdateTeacherDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-02T09:04:43.54Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "AddTeacherDto.cs",
               "DocumentMoniker": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Aplication\\DTOs\\AddTeacherDto.cs",
               "RelativeDocumentMoniker": "NewAPI\\testAPI.Aplication\\DTOs\\AddTeacherDto.cs",
               "ToolTip": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.Aplication\\DTOs\\AddTeacherDto.cs",
               "RelativeToolTip": "NewAPI\\testAPI.Aplication\\DTOs\\AddTeacherDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-02T09:04:34.772Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 12,
               "Title": "TeachersController.cs",
               "DocumentMoniker": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.API\\Controllers\\TeachersController.cs",
               "RelativeDocumentMoniker": "NewAPI\\testAPI.API\\Controllers\\TeachersController.cs",
               "ToolTip": "C:\\Users\\truongnv3\\Desktop\\Basic\\BasicApi\\NewAPI\\NewAPI\\testAPI.API\\Controllers\\TeachersController.cs",
               "RelativeToolTip": "NewAPI\\testAPI.API\\Controllers\\TeachersController.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAwwAMAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAADcAAAAAAAAAAAAcwAMAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-02T08:51:50.798Z",
               "EditorCaption": ""

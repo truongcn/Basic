@@ -20,8 +20,18 @@
                     <input type="text" id="username" placeholder="User Name" required><br><br>
                     <input type="text" id="email" placeholder="Email" required><br><br>
                     <input type="text" id="password" placeholder="Password"><br><br>
-                    <input type="text" id="role" placeholder="Role" required><br><br>
-                    <input type="text" id="emailconfirm" placeholder="EmailConfirm" required><br><br>
+
+                    <div id="roleRow"><select id="role" class="select-input" required>
+                        <option value="User">User</option>
+                        <option value="Admin">Admin</option>
+                    </select><br><br></div>
+
+                    <div id="emailConfirmRow">
+                        <label>
+                            <input type="text" id="emailconfirm" placeholder="EmailConfirm" required><br><br>
+                        </label>
+                    </div>
+
                     <button type="submit">Save</button>
                 </form>
             </div>
@@ -43,6 +53,7 @@
         <table border="1" id="userTable">
             <thead>
                 <tr>
+                    <th>ID</th>
                     <th>Username</th>
                     <th>Email</th>
                     <th>Role</th>

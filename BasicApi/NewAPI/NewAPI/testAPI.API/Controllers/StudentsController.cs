@@ -17,7 +17,12 @@ namespace testAPI.API.Controllers
         }
 
         [HttpGet]
-        public IActionResult GetAll() => Ok(_studentService.GetAll());
+        public IActionResult GetAll()
+        {
+            var students = _studentService.GetAll();
+            return Ok(students);
+        }
+
 
         [HttpGet("{id:guid}")]
         public IActionResult GetById(Guid id)

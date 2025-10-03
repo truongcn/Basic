@@ -10,10 +10,11 @@ const UserCrudModule = (() => {
   function createRow(u) {
     const row = document.createElement("tr");
     row.innerHTML = `
+      <td>${u.id}</td>
       <td>${u.username}</td>
       <td>${u.email}</td>
       <td>${u.role}</td>
-      <td>${u.emailconfirm}</td>
+      <td>${u.emailconfirmed ? "Confirmed" : "No"}</td>
       <td>
         <button onclick='UserCrudModule.openPopup(${JSON.stringify(u)})' class="btn-edit">Edit</button>
         <button onclick="UserCrudModule.deleteUser('${u.id}')" class="btn-delete">Delete</button>
@@ -70,21 +71,38 @@ function openPopup(user = null) {
   const popupTitle = document.getElementById("popupTitle");
   const hiddenId = document.getElementById("userId");
   const form = document.getElementById("userForm");
+  const emailConfirmRow = document.getElementById("emailConfirmRow");
+  const roleRow = document.getElementById("roleRow");
 
   if (user) {
-    popupTitle.textContent = "Edit User";
-    hiddenId.value = user.id;
-    document.getElementById("username").value = user.username;
-    document.getElementById("email").value = user.email;
-    document.getElementById("password").value = ""; // để trống, chỉ nhập khi muốn đổi
-    document.getElementById("role").value = user.role;
-    document.getElementById("emailconfirm").value = user.emailconfirm || "";
-  } else {
-    popupTitle.textContent = "Add User";
-    hiddenId.value = "";
-    form.reset();
-  }
-  popup.style.display = "block";
+  popupTitle.textContent = "Edit User";
+  hiddenId.value = user.id;
+  document.getElementById("username").value = user.username;
+  document.getElementById("email").value = user.email;
+  document.getElementById("password").value = "";
+  document.getElementById("role").value = user.role || "User";
+  document.getElementById("emailconfirm").value = user.emailconfirm || false;
+
+  // Hiện row
+  if (emailConfirmRow) emailConfirmRow.style.display = "block";
+  document.getElementById("emailconfirm").setAttribute("required", "true");
+
+  if (roleRow) roleRow.style.display = "block";
+  document.getElementById("role").setAttribute("required", "true");
+
+} else {
+  popupTitle.textContent = "Add User";
+  hiddenId.value = "";
+  form.reset();
+
+  // Ẩn row
+  if (emailConfirmRow) emailConfirmRow.style.display = "none";
+  document.getElementById("emailconfirm").removeAttribute("required");
+
+  if (roleRow) roleRow.style.display = "none";
+  document.getElementById("role").removeAttribute("required");
+}
+popup.style.display = "block";
 }
 
   // Đóng popup

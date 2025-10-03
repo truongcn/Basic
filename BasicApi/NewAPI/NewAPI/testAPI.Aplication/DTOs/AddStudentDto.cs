@@ -4,6 +4,7 @@
     {
         public string? Name { get; set; }
         public int Phone { get; set; }
+        public string? Classes { get; set; }
         public string? Description { get; set; }
     }
 }

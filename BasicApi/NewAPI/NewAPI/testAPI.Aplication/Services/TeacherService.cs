@@ -1,5 +1,6 @@
 ﻿using NewAPI.testAPI.Application.DTOs;
 using NewAPI.testAPI.Domain.Entities;
+using System.Numerics;
 using testAPI.Domain.Entities;
 using testAPI.Infrastructure.Interfaces;
 
@@ -29,6 +30,7 @@ namespace testAPI.Application.Services
             var teacher = new Teacher
             {
                 Name = dto.Name,
+                Phone = dto.Phone,
                 StudentTeachers = dto.StudentIds?.Select(sid => new StudentTeacher
                 {
                     StudentId = sid   // đổi sang Guid nếu Student.Id là Guid
@@ -44,6 +46,7 @@ namespace testAPI.Application.Services
             if (teacher == null) return null;
 
             teacher.Name = dto.Name;
+            teacher.Phone = dto.Phone;
             teacher.StudentTeachers = dto.StudentIds?.Select(sid => new StudentTeacher
             {
                 StudentId = sid,

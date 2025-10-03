@@ -9,17 +9,26 @@ const TeacherCrudModule = (() => {
   // ======= Tạo row =======
   function createRow(t) {
     const row = document.createElement("tr");
+
+    // Lấy danh sách student từ teacher.studentTeachers
+    const studentNames = t.studentTeachers
+      ?.map(st => st.student?.name)   // lấy tên student
+      .filter(n => n)                 // bỏ null/undefined
+      .join(", ") || "";
+
     row.innerHTML = `
-      <td>${t.id}</td>
-      <td>${t.name}</td>
-      <td>${t.studentTeachers?.map(st => st.studentId).join(", ") || ""}</td>
-      <td>
-        <button onclick='TeacherCrudModule.openPopup(${JSON.stringify(t)})' class="btn-edit">Edit</button>
-        <button onclick="TeacherCrudModule.deleteTeacher('${t.id}')" class="btn-delete">Delete</button>
-      </td>
-    `;
+    <td>${t.id}</td>
+    <td>${t.name}</td>
+    <td>${t.phone}</td>
+    <td>${studentNames}</td>
+    <td>
+      <button onclick='TeacherCrudModule.openPopup(${JSON.stringify(t)})' class="btn-edit">Edit</button>
+      <button onclick="TeacherCrudModule.deleteTeacher('${t.id}')" class="btn-delete">Delete</button>
+    </td>
+  `;
     return row;
   }
+
 
   // Render bảng
   function renderTable() {
@@ -74,6 +83,7 @@ const TeacherCrudModule = (() => {
       popupTitle.textContent = "Edit Teacher";
       hiddenId.value = teacher.id;
       document.getElementById("name").value = teacher.name;
+      document.getElementById("phone").value = teacher.phone;
       document.getElementById("studentIds").value =
         teacher.studentTeachers?.map(st => st.studentId).join(",") || "";
     } else {
@@ -95,13 +105,20 @@ const TeacherCrudModule = (() => {
     const hiddenId = document.getElementById("teacherId");
     const id = hiddenId.value;
     const name = document.getElementById("name").value;
+    const phone = document.getElementById("phone").value;
     const studentIds = document.getElementById("studentIds").value
       .split(",")
       .map(s => s.trim())
       .filter(s => s)
       .map(Number);
 
-    const dto = { id: id ? parseInt(id) : 0, name, studentIds };
+    const dto = { name, phone, studentIds };
+
+if (id) {   // update
+  dto.id = parseInt(id);
+}
+
+
 
     const url = id ? `${apiBase}/Teachers/${id}` : `${apiBase}/Teachers`;
     const method = id ? "PUT" : "POST";
@@ -152,7 +169,7 @@ const TeacherCrudModule = (() => {
     }
 
     const filtered = teachers.filter(t =>
-      t.name.toLowerCase().includes(keyword.toLowerCase()) ||
+      t.name.toLowerCase().includes(keyword.toLowerCase()) || t.phone.toLowerCase().includes(keyword.toLowerCase()) ||
       t.studentTeachers?.some(st => st.studentId.toString().includes(keyword))
     );
 

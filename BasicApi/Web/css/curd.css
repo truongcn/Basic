@@ -173,3 +173,15 @@ table tr:hover {
   cursor: pointer;
   color: red;
 }
+
+.select-input {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 14px;
+    width: 49%;
+  }

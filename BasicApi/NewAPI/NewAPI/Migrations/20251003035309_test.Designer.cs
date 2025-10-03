@@ -12,8 +12,8 @@ using testAPI.testAPI.Infrastructure.Data;
 namespace NewAPI.Migrations
 {
     [DbContext(typeof(TestDbContext))]
-    [Migration("20251002075124_AddTeacherTables")]
-    partial class AddTeacherTables
+    [Migration("20251003035309_test")]
+    partial class test
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -50,6 +50,21 @@ namespace NewAPI.Migrations
                     b.ToTable("EmailVerificationTokens");
                 });
 
+            modelBuilder.Entity("NewAPI.testAPI.Domain.Entities.StudentTeacher", b =>
+                {
+                    b.Property<int>("StudentId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("TeacherId")
+                        .HasColumnType("int");
+
+                    b.HasKey("StudentId", "TeacherId");
+
+                    b.HasIndex("TeacherId");
+
+                    b.ToTable("StudentTeachers");
+                });
+
             modelBuilder.Entity("User", b =>
                 {
                     b.Property<int>("Id")
@@ -84,21 +99,6 @@ namespace NewAPI.Migrations
                     b.ToTable("Users");
                 });
 
-            modelBuilder.Entity("testAPI.Domain.Entities.StudentTeacher", b =>
-                {
-                    b.Property<int>("StudentId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("TeacherId")
-                        .HasColumnType("int");
-
-                    b.HasKey("StudentId", "TeacherId");
-
-                    b.HasIndex("TeacherId");
-
-                    b.ToTable("StudentTeachers");
-                });
-
             modelBuilder.Entity("testAPI.Domain.Entities.Teacher", b =>
                 {
                     b.Property<int>("Id")
@@ -108,6 +108,10 @@ namespace NewAPI.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Phone")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -123,6 +127,9 @@ namespace NewAPI.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Classes")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
@@ -149,7 +156,7 @@ namespace NewAPI.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("testAPI.Domain.Entities.StudentTeacher", b =>
+            modelBuilder.Entity("NewAPI.testAPI.Domain.Entities.StudentTeacher", b =>
                 {
                     b.HasOne("testAPI.testAPI.Domain.Entities.Student", "Student")
                         .WithMany("StudentTeachers")

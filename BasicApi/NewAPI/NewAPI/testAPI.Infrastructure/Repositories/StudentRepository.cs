@@ -1,4 +1,5 @@
-﻿using testAPI.testAPI.Domain.Entities;
+﻿using Microsoft.EntityFrameworkCore;
+using testAPI.testAPI.Domain.Entities;
 using testAPI.testAPI.Infrastructure.Data;
 using testAPI.testAPI.Infrastructure.Interfaces;
 
@@ -13,7 +14,13 @@ namespace testAPI.Infrastructure.Repositories
             _context = context;
         }
 
-        public IEnumerable<Student> GetAll() => _context.Students.ToList();
+        public IEnumerable<Student> GetAll()
+        {
+            return _context.Students
+                .Include(s => s.StudentTeachers)
+                    .ThenInclude(st => st.Teacher)   // 👈 nạp Teacher vào
+                .ToList();
+        }
 
         public Student? GetById(Guid id) => _context.Students.Find(id);
 

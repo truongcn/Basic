@@ -9,10 +9,17 @@
   // Tạo row
   function createRow(s) {
     const row = document.createElement("tr");
+    const teacherNames = s.studentTeachers
+      ?.map(st => st.teacher?.name)
+      .filter(n => n) // loại bỏ null
+      .join(", ") || "";
     row.innerHTML = `
+      <td>${s.id}</td>
       <td>${s.name}</td>
       <td>${s.phone}</td>
+      <td>${s.classes}</td>
       <td>${s.description || ""}</td>
+      <td>${teacherNames}</td>
       <td>
         <button onclick='StudentCrudModule.openPopup(${JSON.stringify(s)})' class="btn-edit">Edit</button>
         <button onclick="StudentCrudModule.deleteStudent('${s.id}')" class="btn-delete">Delete</button>
@@ -75,6 +82,7 @@
       hiddenId.value = student.id;
       document.getElementById("name").value = student.name;
       document.getElementById("phone").value = student.phone;
+      document.getElementById("classes").value = student.class;
       document.getElementById("description").value = student.description || "";
     } else {
       popupTitle.textContent = "Add Student";
@@ -96,6 +104,7 @@
     const id = hiddenId.value;
     const name = document.getElementById("name").value;
     const phone = parseInt(document.getElementById("phone").value);
+    const classes = document.getElementById("classes").value;
     const description = document.getElementById("description").value;
 
     const url = id ? `${apiBase}/Students/${id}` : `${apiBase}/Students`;
@@ -107,7 +116,7 @@
         "Content-Type": "application/json",
         "Authorization": `Bearer ${token}`
       },
-      body: JSON.stringify({ name, phone, description })
+      body: JSON.stringify({ name, phone, classes, description })
     });
 
     if (res.ok) {
@@ -150,9 +159,10 @@
       return;
     }
     const filtered = students.filter(s =>
-      s.name.toLowerCase().includes(keyword.toLowerCase()) ||
+      s.name.toLowerCase().includes(keyword.toLowerCase()) || s.classes.toLowerCase().includes(keyword.toLowerCase()) ||
       s.phone.toString().includes(keyword) ||
-      (s.description && s.description.toLowerCase().includes(keyword.toLowerCase()))
+      (s.description && s.description.toLowerCase().includes(keyword.toLowerCase())) ||
+      s.studentTeachers?.some(t => t.teacherId.toString().includes(keyword))
     );
 
     if (filtered.length === 0) {
