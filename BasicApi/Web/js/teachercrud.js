@@ -4,7 +4,7 @@ const TeacherCrudModule = (() => {
 
   let teachers = [];
   let currentPage = 1;
-  const pageSize = 5;
+  const pageSize = 10;
 
   // ======= Tạo row =======
   function createRow(t) {
@@ -45,22 +45,91 @@ const TeacherCrudModule = (() => {
 
   // Render phân trang
   function renderPagination() {
-    const totalPages = Math.ceil(teachers.length / pageSize);
-    const pagination = document.getElementById("pagination");
-    if (!pagination) return;
-    pagination.innerHTML = "";
+  const totalPages = Math.ceil(teachers.length / pageSize);
+  const pagination = document.getElementById("pagination");
+  if (!pagination || totalPages === 0) return;
+  pagination.innerHTML = "";
 
-    for (let i = 1; i <= totalPages; i++) {
-      const btn = document.createElement("button");
-      btn.textContent = i;
-      btn.className = (i === currentPage) ? "active" : "";
-      btn.addEventListener("click", () => {
-        currentPage = i;
-        renderTable();
-      });
-      pagination.appendChild(btn);
+  // === Tạo helper ===
+  const createBtn = (text, disabled, onClick, isActive = false) => {
+    const btn = document.createElement("button");
+    btn.textContent = text;
+    btn.disabled = disabled;
+    if (isActive) btn.classList.add("active");
+    if (onClick) btn.addEventListener("click", onClick);
+    return btn;
+  };
+
+  // === Nút First / Prev ===
+  pagination.appendChild(
+    createBtn(" « ", currentPage === 1, () => {
+      currentPage = 1;
+      renderTable();
+    })
+  );
+  pagination.appendChild(
+    createBtn(" ‹ ", currentPage === 1, () => {
+      currentPage--;
+      renderTable();
+    })
+  );
+
+  // === Tính phạm vi hiển thị số trang ===
+  const maxVisible = 3;
+  let start = Math.max(1, currentPage - Math.floor(maxVisible / 2));
+  let end = Math.min(totalPages, start + maxVisible - 1);
+  if (end - start < maxVisible - 1) start = Math.max(1, end - maxVisible + 1);
+
+  // === Dấu "..." bên trái ===
+  if (start > 1) {
+    pagination.appendChild(createBtn("1", false, () => {
+      currentPage = 1;
+      renderTable();
+    }));
+    if (start > 2) {
+      const dots = document.createElement("span");
+      dots.textContent = "...";
+      pagination.appendChild(dots);
     }
   }
+
+  // === Các nút số trang ===
+  for (let i = start; i <= end; i++) {
+    pagination.appendChild(
+      createBtn(i, false, () => {
+        currentPage = i;
+        renderTable();
+      }, i === currentPage)
+    );
+  }
+
+  // === Dấu "..." bên phải ===
+  if (end < totalPages) {
+    if (end < totalPages - 1) {
+      const dots = document.createElement("span");
+      dots.textContent = "...";
+      pagination.appendChild(dots);
+    }
+    pagination.appendChild(createBtn(totalPages, false, () => {
+      currentPage = totalPages;
+      renderTable();
+    }));
+  }
+
+  // === Nút Next / Last ===
+  pagination.appendChild(
+    createBtn(" › ", currentPage === totalPages, () => {
+      currentPage++;
+      renderTable();
+    })
+  );
+  pagination.appendChild(
+    createBtn(" » ", currentPage === totalPages, () => {
+      currentPage = totalPages;
+      renderTable();
+    })
+  );
+}
 
   // ======= Load danh sách =======
   async function loadTeachers() {
