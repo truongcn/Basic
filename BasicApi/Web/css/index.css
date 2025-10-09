@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #d6fcfc;
+    background-color: #f0f5f5;
     margin: 0;
     padding: 20px;
 }
@@ -16,6 +16,6 @@ p {
     margin-bottom: 10px;
 }
 
-#btlogin {
+#logoutBtn {
     color: #fd5050;
 }

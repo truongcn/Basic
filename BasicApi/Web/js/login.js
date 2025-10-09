@@ -11,13 +11,18 @@ async function login() {
     });
 
     if (res.ok) {
+        
         const data = await res.json();
+        const token = data.token;
+        localStorage.setItem("token", token);
 
-    // ✅ lưu token trước khi redirect
-    localStorage.setItem("token", data.token);
+        // 🔹 Giải mã phần payload của token để lấy role
+        const payload = JSON.parse(atob(token.split(".")[1]));
+        const role = payload["http://schemas.microsoft.com/ws/2008/06/identity/claims/role"];
+        localStorage.setItem("role", role);
 
-    // ✅ redirect sang index
-    window.location.href = "../index.html";
+        // ✅ Redirect
+        window.location.href = "../index.html";
 
     } else {
         alert("Login failed!");

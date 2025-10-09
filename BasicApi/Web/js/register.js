@@ -25,8 +25,14 @@ async function register() {
 
     if (loginRes.ok) {
       const data = await loginRes.json();
-      localStorage.setItem("token", data.token); // save token
+      const token = data.token;
+      localStorage.setItem("token", token); // save token
       alert("Register and Login success!");
+
+      const payload = JSON.parse(atob(token.split(".")[1]));
+      const role = payload["http://schemas.microsoft.com/ws/2008/06/identity/claims/role"];
+      localStorage.setItem("role", role);
+
       window.location.href = "../index.html"; // next to CRUD
     } else {
       alert("Register success but can't Login!");

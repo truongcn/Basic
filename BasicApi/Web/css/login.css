@@ -1,7 +1,182 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #edf4ff;
+/* login.css */
+
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 20px;
 }
 
+/* Container cho form login */
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grain" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="25" cy="25" r="1" fill="rgba(255,255,255,0.1)"/><circle cx="75" cy="75" r="1" fill="rgba(255,255,255,0.1)"/><circle cx="50" cy="10" r="1" fill="rgba(255,255,255,0.1)"/></pattern></defs><rect width="100" height="100" fill="url(%23grain)"/></svg>');
+    z-index: -1;
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    letter-spacing: 1px;
+}
+
+/* Style cho input fields */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    max-width: 350px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.9);
+    font-size: 16px;
+    color: #333;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+
+input::placeholder {
+    color: #666;
+    font-weight: 300;
+}
+
+/* Style cho buttons */
+button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 10px;
+    min-width: 120px;
+}
+
+/* Login button */
+button[onclick="login()"] {
+    background: linear-gradient(45deg, #ff6b6b, #ee5a24);
+    color: white;
+    box-shadow: 0 8px 32px rgba(255, 107, 107, 0.3);
+    width: 100%;
+    max-width: 350px;
+    margin-bottom: 20px;
+}
+
+button[onclick="login()"]:hover {
+    background: linear-gradient(45deg, #ee5a24, #ff6b6b);
+    box-shadow: 0 12px 40px rgba(255, 107, 107, 0.4);
+    transform: translateY(-3px);
+}
+
+button[onclick="login()"]:active {
+    transform: translateY(-1px);
+}
+
+/* Back button */
+ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+button[onclick*="home.html"] {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+}
+
+button[onclick*="home.html"]:hover {
+    background: rgba(255, 255, 255, 0.3);
+    border-color: rgba(255, 255, 255, 0.5);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive design */
+@media (max-width: 480px) {
+    h2 {
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    input[type="text"],
+    input[type="password"],
+    button[onclick="login()"] {
+        max-width: 100%;
+        width: 100%;
+    }
+    
+    button {
+        padding: 12px 25px;
+        font-size: 14px;
+    }
+}
+
+/* Animation effects */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+body > * {
+    animation: fadeInUp 0.6s ease-out;
+}
+
+input:nth-child(2) {
+    animation-delay: 0.1s;
+}
+
+input:nth-child(3) {
+    animation-delay: 0.2s;
+}
+
+button {
+    animation-delay: 0.3s;
+}
+
+ul {
+    animation-delay: 0.4s;
+}
+
+/* Hover effects cho toàn bộ form */
+body:hover input[type="text"]:not(:focus),
+body:hover input[type="password"]:not(:focus) {
+    background: rgba(255, 255, 255, 0.95);
+}

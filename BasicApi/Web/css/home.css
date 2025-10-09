@@ -1,0 +1,47 @@
+/* home.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    margin: 20px;
+    padding: 0;
+}
+
+button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    background: #ff6b6b;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 16px rgba(255, 107, 107, 0.2);
+}
+
+button:hover {
+    background: #ee5253;
+    box-shadow: 0 12px 24px rgba(255, 107, 107, 0.3);
+    transform: translateY(-3px);
+}
+
+button:active {
+    background: #f36868;
+    transform: translateY(-1px);
+}

@@ -1,6 +1,7 @@
 const TeacherCrudModule = (() => {
   const apiBase = "http://localhost:5283/api";
   const token = localStorage.getItem("token");
+  const role = localStorage.getItem("role");
 
   let teachers = [];
   let currentPage = 1;
@@ -244,7 +245,7 @@ if (id) {   // update
 
     if (filtered.length === 0) {
       const row = document.createElement("tr");
-      row.innerHTML = `<td colspan="4">No teachers found</td>`;
+      row.innerHTML = `<td colspan="5">No teachers found</td>`;
       tbody.appendChild(row);
     } else {
       filtered.forEach(t => tbody.appendChild(createRow(t)));
@@ -264,6 +265,18 @@ if (id) {   // update
 
     const addBtn = document.getElementById("btn-add-teacher");
     if (addBtn) addBtn.onclick = () => openPopup();
+
+      // 🔹 Ẩn các nút nếu không phải Admin
+    if (role !== "Admin") {
+      if (addBtn) addBtn.style.display = "none";
+
+      // Ẩn tất cả nút Edit/Delete trong bảng
+      const style = document.createElement("style");
+      style.textContent = `
+        .btn-edit, .btn-delete { display: none !important; }
+      `;
+      document.head.appendChild(style);
+    }
   }
 
   return { initTeacherCrud, openPopup, deleteTeacher, searchTeachers };

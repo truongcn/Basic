@@ -1,6 +1,8 @@
 ﻿const StudentCrudModule = (() => {
   const apiBase = "http://localhost:5283/api";
   const token = localStorage.getItem("token");
+  const role = localStorage.getItem("role");
+
 
   let students = [];
   let currentPage = 1;
@@ -236,7 +238,7 @@
 
     if (filtered.length === 0) {
       const row = document.createElement("tr");
-      row.innerHTML = `<td colspan="4">No students found</td>`;
+      row.innerHTML = `<td colspan="7">No students found</td>`;
       tbody.appendChild(row);
     } else {
       filtered.forEach(s => tbody.appendChild(createRow(s)));
@@ -245,18 +247,30 @@
 
   // Khởi tạo
   function initStudentCrud() {
-    loadStudents();
+  loadStudents();
 
-    const form = document.getElementById("studentForm");
-    form.removeEventListener("submit", saveStudent);
-    form.addEventListener("submit", saveStudent);
+  const form = document.getElementById("studentForm");
+  form.removeEventListener("submit", saveStudent);
+  form.addEventListener("submit", saveStudent);
 
-    const closeBtn = document.getElementById("closePopup");
-    if (closeBtn) closeBtn.onclick = closePopup;
+  const closeBtn = document.getElementById("closePopup");
+  if (closeBtn) closeBtn.onclick = closePopup;
 
-    const addBtn = document.getElementById("btn-add-student");
-    if (addBtn) addBtn.onclick = () => openPopup();
+  const addBtn = document.getElementById("btn-add-student");
+  if (addBtn) addBtn.onclick = () => openPopup();
+
+  // 🔹 Ẩn các nút nếu không phải Admin
+  if (role !== "Admin") {
+    if (addBtn) addBtn.style.display = "none";
+
+    // Ẩn tất cả nút Edit/Delete trong bảng
+    const style = document.createElement("style");
+    style.textContent = `
+      .btn-edit, .btn-delete { display: none !important; }
+    `;
+    document.head.appendChild(style);
   }
+}
 
   return { initStudentCrud, openPopup, deleteStudent, searchStudents };
 })();
